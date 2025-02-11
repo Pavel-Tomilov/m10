@@ -1,0 +1,31 @@
+.title {
+  color: var(--dark-color-text, #212529);
+  text-align: center;
+  font-variant-numeric: oldstyle-nums tabular-nums;
+  font-feature-settings: 'ss02' on, 'cv01' on;
+  font-family: var(--sub-font, 'Corsa Grotesk', Courier, monospace);
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: 3;
+}
+
+.title__light {
+  color: var(--light-color-text, #F2F1ED);
+}
+
+@media all and (max-width: 1279px) {
+  .title {
+    font-size: 48px;
+  }
+}
+
+@media all and (max-width: 732px) {
+  .title {
+    font-size: 20px;
+    line-height: normal;
+  }
+}

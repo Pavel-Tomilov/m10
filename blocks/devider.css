@@ -1,0 +1,172 @@
+.devider {
+  background: var(--Minimal-dark-100, #171614);
+  padding: 65px 0 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.devider__texts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgba(242, 241, 237, 0.80);
+  font-variant-numeric: oldstyle-nums tabular-nums;
+  font-family: var(--minor-font, 'Didot', Arial, sans-serif);
+  font-size: 128px;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  padding: 0 0 0 100px;
+}
+
+.devider__title {
+  font-style: normal;
+  margin: 0;
+}
+
+.devider__title-italic {
+  font-style: italic;
+  margin: 0;
+}
+
+.devider__section {
+  display: grid;
+  grid-template-columns: 41.7fr 27.8fr 27.8fr;
+  align-items: end;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  grid-template-areas: "start-image medium-image end-image";
+}
+
+.devider__start-image {
+  object-fit: contain;
+  margin: 48px 0 0;
+  width: 100%;
+  grid-area: start-image;
+}
+
+.devider__medium-image {
+  object-fit: contain;
+  width: 100%;
+  grid-area: medium-image;
+}
+
+.devider__end-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
+  gap: 109px;
+  margin: 42px 0 0;
+  width: 100%;
+  grid-area: end-image;
+}
+
+.devider__text {
+  color: var(--Minimal-light-100, #F2F1ED);
+  text-align: right;
+  font-variant-numeric: oldstyle-nums tabular-nums;
+  font-family: var(--sub-font, 'Corsa Grotesk', Courier, monospace);
+  font-size: 20px;
+  max-width: 300px;
+  text-align: end;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.devider__end-image {
+  width: 100%;
+  object-fit: contain;
+}
+
+@media (min-width: 1025px) and (max-width: 1255px) {
+  .devider__texts {
+    font-size: 90px;
+  }
+
+  .devider__text {
+    font-size: 18px;
+    max-width: 220px;
+  }
+}
+
+@media all and (max-width: 1025px) {
+  .devider {
+    padding: 90px 40px 48px;
+    gap: 60px;
+  }
+
+  .devider__texts {
+    font-size: 80px;
+    padding: 0;
+  }
+
+  .devider__section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: end;
+    justify-content: flex-start;
+    gap: 16px;
+    grid-template-areas:
+      "medium-image end-image"
+      "start-image start-image";
+  }
+
+  .devider__start-image {
+    object-fit: cover;
+    margin: 32px 0 0;
+    max-height: 400px;
+  }
+
+  .devider__medium-image {
+    object-fit: cover;
+  }
+
+  .devider__end-block {
+    gap: 79px;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 732px) {
+  .devider {
+    padding: 45px 0px 27px;
+    gap: 60px;
+  }
+
+  .devider__texts {
+    font-size: 32px;
+    margin-left: 20px;
+  }
+
+  .devider__text {
+    font-size: 14px;
+    line-height: auto;
+    margin-right: 20px;
+  }
+
+  .devider__section {
+    gap: 8px;
+  }
+
+  .devider__start-image {
+    margin: 0;
+    max-height: 200px;
+  }
+
+  .devider__end-block {
+    gap: 79px;
+    margin: 0;
+    width: 100%;
+  }
+}

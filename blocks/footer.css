@@ -1,0 +1,42 @@
+.footer {
+  padding: 66px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--accent-block-backgroung, #343A40);
+}
+
+.footer__text {
+  color: var(--accent-block-color-text, #F8F9FA);
+  text-align: center;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0;
+}
+
+.footer__logo {
+  width: 137px;
+  height: 28px;
+  object-fit: contain;
+}
+
+@media (orientation: portrait) and (max-width: 732px) {
+  .footer {
+    padding: 27px 0;
+  }
+
+  .footer__text {
+    font-size: 10px;
+  }
+
+  .footer__logo {
+    width: 92px;
+    height: 19px;
+  }
+}

@@ -1,0 +1,21 @@
+:root {
+  --basa-font: 'Montserrat', Arial, sans-serif;
+  --sub-font: 'Noto Serif', Courier, monospace;
+  --description-font: 'Montserrat', Arial, sans-serif;
+  --minor-font: 'Roboto', Arial, sans-serif;
+  --accent-block-backgroung: #343A40;
+  --accent-block-color-text: #F8F9FA;
+  --background-color: #F8F9FA;
+  --light-color-text: #F2F1ED;
+  --dark-color-text: #212529;
+  --minimal-light: #C6C5C2;
+  --header-image: url(../image/main.png);
+  --timer-image: url(../image/timer.jpg);
+  scroll-behavior: smooth;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  background: var(--background-color, #F8F9FA);
+}

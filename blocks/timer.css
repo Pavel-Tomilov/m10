@@ -1,0 +1,128 @@
+.timer {
+  padding: 80px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  width: 100%;
+  position: relative;
+}
+
+.timer__blok {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: space-between;
+  z-index: 4;
+}
+
+.timer__block-info {
+  display: flex;
+  min-width: 155px;
+  padding: 16px 8px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: rgba(98, 98, 98, 0.2);
+  font-family: var(----sub-font, 'Noto Serif', Courier);
+  font-weight: 300;
+  text-align: center;
+}
+
+.timer__number {
+  color: var(--dark-color-text, #212529);
+  text-align: center;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.timer__text {
+  color: var(--dark-color-text, #212529);
+  text-align: center;
+  font-feature-settings: 'ss01' on, 'ss02' on;
+  font-family: var(--description-font, 'Montserrat', Arial, sans-serif);
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  margin: 0;
+}
+
+@media all and (max-width: 1279px) {
+  .timer {
+    gap: 32px;
+  }
+
+  .timer__blok {
+    gap: 32px;
+  }
+
+  .timer__block-info {
+    min-width: 120px;
+    padding: 12px 5px;
+    gap: 8px;
+  }
+
+  .timer__number {
+    font-size: 40px;
+  }
+
+  .timer__text {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 733px) and (max-width: 1025px) {
+  .timer {
+    padding: 100px 0;
+    gap: 30px;
+  }
+
+  .timer__blok {
+    gap: 34px;
+  }
+
+  .timer__block-info {
+    min-width: 130px;
+    padding: 16px 8px;
+  }
+
+  .timer__number {
+    font-size: 44px;
+    line-height: 45px;
+  }
+}
+
+@media all and (max-width: 732px) {
+  .timer {
+    padding: 59px 20px;
+    gap: 16px;
+  }
+
+  .timer__blok {
+    gap: 8px;
+  }
+
+  .timer__block-info {
+    min-width: 64px;
+    min-height: 64px;
+    padding: 6px 6px;
+    gap: 2px;
+  }
+
+  .timer__number {
+    font-size: 24px;
+    line-height: normal;
+  }
+
+  .timer__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

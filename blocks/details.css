@@ -1,0 +1,115 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 80px 200px;
+  box-sizing: border-box;
+  width: 100%;
+  background: var(--background-color, #F8F9FA);
+}
+
+.details__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  color: var(--dark-color-text, #212529);
+}
+
+.details__title {
+  font-family: var(--sub-font, 'Noto Serif', Courier, monospace);
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.details_list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+.details__item {
+  color: var(--dark-color-text, #171614);
+  font-feature-settings: 'ss01' on, 'ss02' on;
+  font-family: var(--description-font, 'Montserrat', Arial, sans-serif);
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+  max-width: 610px;
+}
+
+@media (min-width: 1026px) and (max-width: 1279px) {
+  .details__text {
+    gap: 32px;
+  }
+
+  .details__title {
+    font-size: 32px;
+  }
+
+  .details_list {
+    gap: 24px;
+  }
+
+  .details__item {
+    font-size: 18px;
+  }
+}
+
+
+@media (min-width: 733px) and (max-width: 1025px) {
+  .details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 62px;
+    padding: 69px 40px 60px;
+  }
+
+  .details__back-text {
+    align-self: flex-end;
+  }
+}
+
+@media all and (max-width: 732px) {
+  .details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 36px;
+    padding: 27px 44px 45px;
+  }
+
+  .details__back-text {
+    align-self: flex-end;
+  }
+
+  .details__text {
+    gap: 12px;
+  }
+
+  .details_list {
+    gap: 12px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .details__item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .details__back-text {
+    font-size: 23px;
+  }
+}
