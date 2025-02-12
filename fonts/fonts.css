@@ -16,7 +16,6 @@
   font-weight: 400;
 }
 
-
 @font-face {
   font-family: 'Roboto';
   src: url(./Roboto-Light.woff2) format('woff2');
@@ -31,6 +30,51 @@
   src: url(./Roboto-Medium.woff2) format('woff2');
   src: url(./Roboto-Medium.woff) format('woff');
   src: url(./Roboto-Medium.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url(./CormorantGaramond-Regular.woff2) format('woff2');
+  src: url(./CormorantGaramond-Regular.woff) format('woff');
+  src: url(./CormorantGaramond-Regular.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url(./CormorantGaramond-Medium.woff2) format('woff2');
+  src: url(./CormorantGaramond-Medium.woff) format('woff');
+  src: url(./CormorantGaramond-Medium.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CormorantGaramond';
+  src: url(./CormorantGaramond-Light.woff2) format('woff2');
+  src: url(./CormorantGaramond-Light.woff) format('woff');
+  src: url(./CormorantGaramond-Light.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'CorsaGrotesk';
+  src: url(./CorsaGrotesk-Regular.woff2) format('woff2');
+  src: url(./CorsaGrotesk-Regular.woff) format('woff');
+  src: url(./CorsaGrotesk-Regular.ttf) format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CorsaGrotesk';
+  src: url(./CorsaGrotesk-Thin.woff2) format('woff2');
+  src: url(./CorsaGrotesk-Thin.woff) format('woff');
+  src: url(./CorsaGrotesk-Thin.ttf) format('ttf');
   font-style: normal;
   font-weight: 400;
 }

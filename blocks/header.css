@@ -1,251 +1,33 @@
 .header {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--background-color, #F8F9FA);
-  margin: 0;
+padding-top: 54px;
+padding-bottom: 122px;
 }
 
-.header__box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 60px;
+.header__container {
+padding-top: 41px;
+padding-bottom: 41px;
 }
 
-.header__intro {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 36px;
-  width: max-content;
-  height: 100%;
+.nav {
+
 }
 
-.header__date {
-  font-family: var(--sub-font, 'Cormorant', Arial, sans-serif);
-  font-weight: 300;
-  font-size: 128px;
-  line-height: 90%;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
+.nav__list {
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav__link {
+  color: var(--accent-color-text);
+  font-family: var(--sub-font);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
   text-align: center;
-  color: var(--dark-color-text, #212529);
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-right: 24px;
-  border-right: 2px solid var(--dark-color-text, #212529);
-}
-
-.header__number {
-  margin: 0;
-}
-
-.header__texts {
-  display: flex;
-  flex-direction: column;
-}
-
-.header__text {
-  font-family: var(--sub-font, 'Cormorant', Arial, sans-serif);
-  color: var(--dark-color-text, #212529);
-  font-weight: 300;
-  font-size: 96px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
   text-transform: uppercase;
-  margin: 0;
 }
 
-.header__names {
-  display: flex;
-  flex-direction: column;
-  align-self: end;
-}
-
-.header__name {
-  font-family: var(--sub-font, 'Cormorant', Arial, sans-serif);
-  color: var(--dark-color-text, #212529);
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-
-
-@media (orientation: landscape) and (max-width: 1439px) {
-  .header {
-    height: calc(100vh - 112px);
-    margin: 112px 40px 0;
-  }
-
-  .header__box {
-    flex-direction: row;
-    gap: 77px;
-  }
-
-  .header__texts {
-    flex-direction: column;
-    align-self: flex-end;
-    gap: 18px;
-  }
-
-  .header__text {
-    font-size: 64px;
-  }
-
-  .header__names {
-    align-self: center;
-  }
-
-  .header__name {
-    font-size: 96px;
-  }
-}
-
-@media all and (max-width: 1279px) {
-  .header {
-    height: calc(100vh - 112px);
-    margin: 112px 40px 0;
-  }
-
-  .header__box {
-    flex-direction: row;
-    gap: 77px;
-  }
-
-  .header__texts {
-    flex-direction: column;
-    align-self: flex-end;
-    gap: 12px;
-  }
-
-  .header__text {
-    font-size: 48px;
-  }
-
-  .header__names {
-    align-self: flex-end;
-  }
-
-  .header__name {
-    font-size: 64px;
-  }
-
-  .header__intro {
-    gap: 24px;
-  }
-
-  .header__date {
-    font-size: 96px;
-    line-height: 90%;
-    padding-right: 24px;
-    border-right: 2px solid var(--dark-color-text, #212529);
-  }
-
-  .header__arrow {
-    display: none;
-  }
-}
-
-@media all and (max-width: 1025px) {
-  .header {
-    height: 100vh;
-    margin: 0 20px 0;
-  }
-
-  .header__box {
-    flex-direction: column;
-    gap: 87px;
-  }
-
-  .header__intro {
-    gap: 20px;
-  }
-
-  .header__texts {
-    flex-direction: row;
-    align-self: flex-end;
-    gap: 20px;
-  }
-
-  .header__date {
-    font-size: 96px;
-    line-height: 85%;
-    padding: 20px;
-  }
-
-  .header__text {
-    font-size: 64px;
-  }
-
-  .header__names {
-    align-self: center;
-  }
-
-  .header__name {
-    font-size: 64px;
-  }
-}
-
-@media (orientation: landscape) and (max-width: 743px) {
-  .header__names {
-    max-width: 500px;
-  }
-
-  .header__name {
-    font-size: 100px;
-  }
-
-  .header__name_position_one {
-    transform: translateY(5px);
-  }
-}
-
-@media (orientation: portrait) and (max-width: 732px) {
-  .header {
-    height: 100vh;
-    margin: 0 20px 0;
-  }
-
-  .header__box {
-    flex-direction: column;
-    gap: 87px;
-  }
-
-  .header__intro {
-    gap: 10px;
-  }
-
-  .header__texts {
-    flex-direction: row;
-    align-self: flex-end;
-    gap: 10px;
-  }
-
-  .header__date {
-    font-size: 96px;
-    line-height: 85%;
-    padding: 10px;
-  }
-
-  .header__text {
-    font-size: 24px;
-  }
-
-  .header__names {
-    align-self: center;
-  }
-
-  .header__name {
-    font-size: 48px;
-  }
+.image {
+  background-color: black;
 }

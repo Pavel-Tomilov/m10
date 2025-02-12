@@ -1,49 +1,80 @@
-.info {
-  padding: 80px 100px;
-  box-sizing: border-box;
-  min-height: max-content;
+.hero {
+  position: relative;
+  padding-bottom: 240px;
+}
+
+.hero__container {
+  width: 820px;
+  height: 413px;
+  outline: 3px solid var(--accent-color-text);
+  border-radius: 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-}
-
-.info__contain {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  max-width: 1600px;
 }
 
-.info__details {
-  color: var(--dark-color-text, #212529);
-  text-align: start;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-  margin: 0;
-  max-width: 610px;
+.hero__top {
+  width: 796px;
+  padding-top: 53px;
+  padding-bottom: 53px;
+  outline: 2px solid var(--accent-color-text);
+  border-radius: 100px;
 }
 
-.info__welcome {
-  font-family: var(--sub-font, 'Noto Serif', Courier, monospace);
-  font-weight: 300;
-  font-size: 60px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
+.hero__date {
+  color: var(--accent-color-text);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
   text-transform: uppercase;
-  margin: 0;
 }
+
+.hero__title {
+  margin: 0;
+  color: var(--accent-color-text);
+  font-family: var(--sub-font);
+  font-size: 96px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero__image-left {
+  position: absolute;
+  top: -294px;
+  left: -66px;
+  width: 694px;
+  height: 1053px;
+  background-image: url(../image/img2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero__image-right {
+  position: absolute;
+  top: -290px;
+  right: -59px;
+  width: 694px;
+  height: 1053px;
+  background-image: url(../image/img1.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
 
 .info__description {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   font-family: var(--basa-font, 'Montserrat', Arial, sans-serif);
-  font-feature-settings: 'ss01' on, 'ss02' on;
+  font-feature-settings: 'ss01'on, 'ss02'on;
   font-weight: 300;
   font-size: 24px;
   line-height: 120%;
