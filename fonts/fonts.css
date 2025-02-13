@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url(./Montserrat\ Light.woff2) format('woff2');
-  src: url(./Montserrat\ Light.woff) format('woff');
-  src: url(./Montserrat\ Light.ttf) format('ttf');
+  src: url(./MontserratLight.woff2) format('woff2');
+  src: url(./MontserratLight.woff) format('woff');
+  src: url(./MontserratLight.ttf) format('ttf');
   font-style: normal;
   font-weight: 300;
 }
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-  font-family: 'CormorantGaramond';
+  font-family: 'Cormorant Garamond';
   src: url(./CormorantGaramond-Regular.woff2) format('woff2');
   src: url(./CormorantGaramond-Regular.woff) format('woff');
   src: url(./CormorantGaramond-Regular.ttf) format('ttf');
@@ -44,7 +44,7 @@
 }
 
 @font-face {
-  font-family: 'CormorantGaramond';
+  font-family: 'Cormorant Garamond';
   src: url(./CormorantGaramond-Medium.woff2) format('woff2');
   src: url(./CormorantGaramond-Medium.woff) format('woff');
   src: url(./CormorantGaramond-Medium.ttf) format('ttf');
@@ -53,7 +53,7 @@
 }
 
 @font-face {
-  font-family: 'CormorantGaramond';
+  font-family: 'Cormorant Garamond';
   src: url(./CormorantGaramond-Light.woff2) format('woff2');
   src: url(./CormorantGaramond-Light.woff) format('woff');
   src: url(./CormorantGaramond-Light.ttf) format('ttf');
@@ -62,7 +62,7 @@
 }
 
 @font-face {
-  font-family: 'CorsaGrotesk';
+  font-family: 'Corsa Grotesk';
   src: url(./CorsaGrotesk-Regular.woff2) format('woff2');
   src: url(./CorsaGrotesk-Regular.woff) format('woff');
   src: url(./CorsaGrotesk-Regular.ttf) format('ttf');
@@ -71,7 +71,7 @@
 }
 
 @font-face {
-  font-family: 'CorsaGrotesk';
+  font-family: 'Corsa Grotesk';
   src: url(./CorsaGrotesk-Thin.woff2) format('woff2');
   src: url(./CorsaGrotesk-Thin.woff) format('woff');
   src: url(./CorsaGrotesk-Thin.ttf) format('ttf');

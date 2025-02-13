@@ -1,9 +1,10 @@
 .about {
   padding-top: 240px;
-  padding-bottom: 50px;
+  padding-bottom: 240px;
 }
 
 .about__container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,4 +43,16 @@ font-weight: 300;
 line-height: 29px;
 letter-spacing: 1%;
 text-align: center;
+}
+
+.about__image-left {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.about__image-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }

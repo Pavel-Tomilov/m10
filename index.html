@@ -45,53 +45,83 @@
   </header>
   <h1 class="visually-hidden">Приглашение на свадьбу</h1>
   <main class="main">
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero__image-left"></div>
       <div class="hero__image-right"></div>
-     <div class="container hero__container">
-     <div class="hero__top">
-        <div class="hero__date">06.08.2024</div>
-        <h2 class="hero__title">МИХАИЛ</h2>
-        <h2 class="hero__title">ИРИНА</h2>
-     </div>
-     </div>
+      <div class="container hero__container">
+        <div class="hero__top">
+          <div class="hero__date">06.08.2024</div>
+          <h2 class="hero__title">МИХАИЛ</h2>
+          <h2 class="hero__title">ИРИНА</h2>
+        </div>
+      </div>
     </section>
     <section class="about" id="about">
       <div class="container">
         <div class="about__container">
+          <img class="about__image-left" src="../image/line-left.svg" alt="">
+          <img class="about__image-right" src="../image/line-right.svg" alt="">
           <div class="about__date">06.08.24</div>
           <h3 class="about__title">мы женимся</h3>
-          <p class="about__text">Мы счастливы поделиться с вами радостной новостью: наша история любви привела нас к моменту, когда мы готовы создать свою <br> собственную семью</p>
+          <p class="about__text">Мы счастливы поделиться с вами радостной новостью: наша история любви привела нас
+            к моменту, когда мы готовы создать свою <br> собственную семью</p>
         </div>
       </div>
     </section>
     <section class="location" id="location">
-      <div class="location__plases">
-        <div class="location__place">
-          <p class="location__subtitle">Регистрация</p>
-          <p class="location__adress">Дворец бракосочетания №1,</br>Санкт-Петербург, Английская наб., 28.</p>
-        </div>
-        <div class="location__place">
-          <p class="location__subtitle">Праздничный ужин</p>
-          <p class="location__adress">Ресторан Social Club,</br>Санкт-Петербург, ул. Рубинштейна, 40/11.</p>
+      <div class="container">
+        <div class="location__container">
+          <div class="image-left"></div>
+          <div class="image-right"></div>
+          <div class="image-bottom-left"></div>
+            <div class="image-bottom-right"></div>
+          <div class="location__place">
+            <h3 class="location__title">Регистрация</h3>
+            <img class="location-image" src="../image/line-location.svg" alt="">
+            <p class="location__adress">Дворец бракосочетания №1,</br>Санкт-Петербург, Английская наб., 28.</p>
+          </div>
+          <div class="location__place">
+
+            <h3 class="location__title">ужин</h3>
+            <img class="location-image" src="../image/line-location.svg" alt="">
+            <p class="location__adress">Ресторан Social Club,</br>Санкт-Петербург, ул. Рубинштейна, 40/11.</p>
+          </div>
         </div>
       </div>
     </section>
     <section class="details" id="details">
-      <div class="details__text">
-        <h3 class="details__title">Детали</h3>
-        <ul class="details_list">
-          <li class="details__item">Просим вас воздержаться от криков «Горько!» и сохранить атмосферу уютного семейного праздника.</li>
-          <li class="details__item">Вечером, возможно, будет прохладно, пожалуйста, возьмите с собой теплые вещи.</li>
-          <li class="details__item">Мы будем рады любому подарку, но если не будет идей — можете воспользоваться вишлистом. Не забудьте забронировать подарок!</li>
+      <div class="container">
+       <div class="details__container flex">
+        <h3 class="details__title">план дня</h3>
+        <ul class="list-reset details__list-top flex">
+          <li class="details__item-top">14:00</li>
+          <li class="details__item-top">15:00</li>
+          <li class="details__item-top">15:30</li>
+          <li class="details__item-top">16:00</li>
+          <li class="details__item-top">21:00</li>
+          <li class="details__item-top">21:30</li>
+          <li class="details__item-top">22:00</li>
         </ul>
+        <img src="../image/line-details.png" alt="">
+        <ul class="list-reset details__list-bottom flex">
+          <li class="details__item-bottom">Сбор гостей</li>
+          <li class="details__item-bottom">Регистрация</li>
+          <li class="details__item-bottom">Фуршет</li>
+          <li class="details__item-bottom">Ужин</li>
+          <li class="details__item-bottom">Торт</li>
+          <li class="details__item-bottom">Танцы</li>
+          <li class="details__item-bottom">Окончание</li>
+        </ul>
+      </div>
+
       </div>
     </section>
     <section class="dresscode">
       <div class="dresscode__line"></div>
       <div class="dresscode__texts">
         <h3 class="dresscode__title">Дресс-код</h3>
-        <p class="dresscode__description">Мы будем признательны, если вы поддержите цветовую гамму праздника в своих нарядах</p>
+        <p class="dresscode__description">Мы будем признательны, если вы поддержите цветовую гамму праздника в своих
+          нарядах</p>
         <ul class="dresscode__colors">
           <li class="dresscode__color dresscode__color_position_one"></li>
           <li class="dresscode__color dresscode__color_position_two"></li>
@@ -105,12 +135,14 @@
       <div class="rsvp__contain">
         <div class="rsvp__text">
           <h3 class="title title__light">Обратная связь</h3>
-          <p class="rsvp__description">Пожалуйста, подтвердите ваше присутствие на нашем празднике до 01 июля 2024 года любым удобным для вас способом или заполните форму ниже</p>
+          <p class="rsvp__description">Пожалуйста, подтвердите ваше присутствие на нашем празднике до 01 июля 2024 года
+            любым удобным для вас способом или заполните форму ниже</p>
         </div>
         <form class="rsvp__form" name="rsvp" id="rsvp">
           <div class="rsvp__inputs">
             <input type="text" placeholder="Имя и Фамилия" id="name" required class="rsvp__input"></input>
-            <input type="number" min="0" max="10" placeholder="Количество персон" id="person" required class="rsvp__input"></input>
+            <input type="number" min="0" max="10" placeholder="Количество персон" id="person" required
+              class="rsvp__input"></input>
           </div>
           <div class="rsvp__buttons">
             <button class="rsvp__button rsvp__button-adder" name="Добавить" type="submit">Добавить гостя</button>
@@ -125,13 +157,15 @@
     <section class="questions" id="questions">
       <div class="questions__texts">
         <h3 class="title">Опрос</h3>
-        <p class="questions__description">Чтобы все прошло идеально и этот день оставил незабываемые впечатления, пожалуйста, ответьте на несколько вопросов</p>
+        <p class="questions__description">Чтобы все прошло идеально и этот день оставил незабываемые впечатления,
+          пожалуйста, ответьте на несколько вопросов</p>
         <p class="questions__description">Опрос заполняется и отправляется для каждого гостя отдельно.
           Сначала заполните и отправьте для одного гостя, затем для другого.</p>
       </div>
       <form class="questios__form">
         <input type="text" placeholder="Имя и Фамилия" id="who" required class="questions__input" minLength={2}></input>
-        <fieldset class="questions__string"><p class="questions__text">Предпочтения по еде:</p>
+        <fieldset class="questions__string">
+          <p class="questions__text">Предпочтения по еде:</p>
           <label htmlFor="meat" class="question__label">
             <input class="questions__unvisible" type="radio" name="Еда" value="Мясо" id="meat"></input>
             <span class="questions__visible-radio"></span>
@@ -142,35 +176,41 @@
             <span class="questions__visible-radio"></span>
             <span class="questions__text-span">Рыба</span>
           </label>
-          <label  htmlFor="chicken" className="questions__label">
+          <label htmlFor="chicken" className="questions__label">
             <input class="questions__unvisible" type="radio" name="Еда" value="Курица" id="chicken"></input>
             <span class="questions__visible-radio"></span>
             <span class="questions__text-span">Курица</span>
           </label>
         </fieldset>
-        <fieldset class="questions__string"><p class="questions__text">Предпочтение по алкоголю:</p>
-          <label  htmlFor="redVine" class="questions__label">
-            <input class="questions__unvisible" type="checkbox" name="Красное вино" value="Красное вино" id="redVine"></input>
+        <fieldset class="questions__string">
+          <p class="questions__text">Предпочтение по алкоголю:</p>
+          <label htmlFor="redVine" class="questions__label">
+            <input class="questions__unvisible" type="checkbox" name="Красное вино" value="Красное вино"
+              id="redVine"></input>
             <span class="questions__visible-checkbox"></span>
             <span class="questions__text-span">Красное вино</span>
           </label>
-          <label  htmlFor="whiteVine" class="questions__label">
-            <input class="questions__unvisible" type="checkbox" name="Белое вино" value="Белое вино" id="whiteVine"></input>
+          <label htmlFor="whiteVine" class="questions__label">
+            <input class="questions__unvisible" type="checkbox" name="Белое вино" value="Белое вино"
+              id="whiteVine"></input>
             <span class="questions__visible-checkbox"></span>
             <span class="questions__text-span">Белое вино</span>
           </label>
-          <label  htmlFor="sparkling" class="questions__label">
-            <input class="questions__unvisible" type="checkbox" name="Игристое вино" value="Игристое вино" id="sparkling"></input>
+          <label htmlFor="sparkling" class="questions__label">
+            <input class="questions__unvisible" type="checkbox" name="Игристое вино" value="Игристое вино"
+              id="sparkling"></input>
             <span class="questions__visible-checkbox"></span>
             <span class="questions__text-span">Игристое вино</span>
           </label>
-          <label  htmlFor="strong" class="questions__label">
-            <input class="questions__unvisible" type="checkbox" name="Крепкий алкоголь" value="Крепкий алкоголь" id="strong"></input>
+          <label htmlFor="strong" class="questions__label">
+            <input class="questions__unvisible" type="checkbox" name="Крепкий алкоголь" value="Крепкий алкоголь"
+              id="strong"></input>
             <span class="questions__visible-checkbox"></span>
             <span class="questions__text-span">Крепкий алкоголь</span>
           </label>
-          <label  htmlFor="noAlco" class="questions__label">
-            <input class="questions__unvisible" type="checkbox" name="Безалкогольные напитки" value="Безалкогольные напитки" id="noAlco"></input>
+          <label htmlFor="noAlco" class="questions__label">
+            <input class="questions__unvisible" type="checkbox" name="Безалкогольные напитки"
+              value="Безалкогольные напитки" id="noAlco"></input>
             <span class="questions__visible-checkbox"></span>
             <span class="questions__text-span">Безалкогольные напитки</span>
           </label>
@@ -203,7 +243,7 @@
         </div>
       </div>
     </section>
- </main>
+  </main>
   <footer class="footer">
     <p class="footer__text">Создано с помощью сервиса</p>
     <img src="./image/logo.svg" class="footer__logo">

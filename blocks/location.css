@@ -1,172 +1,89 @@
 .location {
-  background-image: url(../image/location.png);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 125px 100px;
-  box-sizing: border-box;
-  height: 700px;
+position: relative;
 }
 
-.location__contain {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: 68px;
-  max-width: 1600px;
-}
+.location__container {
 
-.location__plases {
-  font-family: var(--sub-font, 'Noto Serif', Courier, monospace);
-  font-weight: 300;
-  background-color: var(--accent-block-color-text, #F2F1ED);
-  color: var(--dark-color-text, #212529);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 24px;
-  padding: 60px 40px;
+justify-content: center;
+align-items: center;
 }
 
 .location__place {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 12px;
+
+padding-top: 100px;
+padding-bottom: 100px;
 }
 
-.location__subtitle {
-  font-size: 48px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  text-align: start;
-  margin: 0;
+.location__title {
+margin: 0;
+color: rgba(121, 88, 95, 0.8);
+font-family: var(--sub-font);
+font-size: 64px;
+font-weight: 400;
+line-height: 78px;
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 39px;
 }
 
 .location__adress {
-  font-family: var(--description-font, Arial, sans-serif);
-  font-feature-settings: 'ss01' on, 'ss02' on;
-  font-size: 24px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
-  text-align: start;
-  margin: 0;
+color: rgb(121, 88, 95);
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 20px;
+line-height: 145%;
+text-align: center;
 }
 
-@media all and (max-width: 1279px) {
-  .location {
-    padding: 0 75px;
-    box-sizing: border-box;
-    height: 100dvh;
-  }
-
-  .location__contain {
-    gap: 48px;
-  }
-
-  .location__plases {
-    padding: 60px 40px;
-  }
-
-  .location__subtitle {
-    font-size: 38px;
-  }
-
-  .location__adress {
-    font-size: 18px;
-  }
+.location-image {
+  display: inline-block;
+margin-bottom: 36px;
 }
 
-@media (min-width: 733px) and (max-width: 1025px) {
-  .location {
-    padding: 108px 0 91.5px;
-    width: 100%;
-  }
-
-  .location__contain {
-    gap: 77px;
-    max-width: 100%;
-    width: 100%;
-    align-items: center;
-  }
-
-  .location__text {
-    font-size: 80px;
-    align-self: flex-start;
-    padding-left: 40px;
-  }
-
-  .location__info {
-    align-self: flex-start;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
-    gap: 100px;
-  }
-
-  .location__plases {
-    gap: 54px;
-    margin: 0 40px;
-  }
-
-  .location__image {
-    width: 648px;
-    height: 379px;
-    align-self: flex-end;
-  }
+.image-left {
+position: absolute;
+background-image: url(../image/location-left.png);
+background-size: auto;
+width: 658px;
+height: 998px;
+left: -0;
+top: -129px;
+z-index: 1;
 }
 
-@media all and (max-width: 732px) {
-  .location {
-    padding: 46px 0;
-    width: 100%;
-  }
+.image-right {
+position: absolute;
+background-image: url(../image/location-right.png);
+background-size: auto;
+width: 658px;
+height: 998px;
+right: 8px;
+top: -129px;
+z-index: 1;
+}
 
-  .location__contain {
-    gap: 36px;
-    max-width: 100%;
-    width: 100%;
-    align-items: center;
-  }
+.image-bottom-left {
+  position: absolute;
+background-image: url(../image/img-loc-bot-left.png);
+background-size: auto;
+background-repeat: no-repeat;
+width: 658px;
+height: 998px;
+left: 0px;
+top: 426px;
+z-index: 1;
+}
 
-  .location__text {
-    font-size: 46px;
-  }
-
-  .location__info {
-    align-self: flex-start;
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 100%;
-    gap: 36px;
-  }
-
-  .location__plases {
-    gap: 16px;
-    margin: 0 20px;
-  }
-
-  .location__subtitle {
-    font-size: 20px;
-    letter-spacing: 0.36px;
-  }
-
-  .location__adress {
-    font-size: 12px;
-    line-height: 16px;
-  }
-
-  .location__image {
-    width: 85%;
-    height: auto;
-    align-self: flex-end;
-  }
+.image-bottom-right {
+  position: absolute;
+  background-image: url(../image/img-loc-bot-right.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 658px;
+height: 998px;
+right: -539px;
+top: 403px;
+z-index: 1;
 }
