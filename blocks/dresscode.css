@@ -1,87 +1,82 @@
 .dresscode {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding: 0;
-  box-sizing: border-box;
-  width: 100%;
-  background: var(--background-color, #F8F9FA);
+  padding-top: 123px;
+  padding-bottom: 123px;
+position: relative;
 }
 
-.dresscode__line {
-  align-self: center;
-  width: calc(100% - 200px);
-  height: 1px;
-  background-color: var(--dark-color-text, #212529);
+.dresscode__container {
+width: 610px;
 }
 
-.dresscode__texts {
-  padding: 80px 200px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  align-items: flex-end;
-  justify-content: center;
-  box-sizing: border-box;
+.dresscode__image-left {
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+.dresscode__image-right {
+  position: absolute;
+  top: -41px;
+  right: 0;
 }
 
 .dresscode__title {
-  font-family: var(--sub-font, 'Noto Serif', Courier, monospace);
-  font-weight: 300;
+  font-family: var(--second-family);
+  font-weight: 400;
   font-size: 64px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
   text-transform: uppercase;
+  text-align: center;
+  color: #79585f;
   margin: 0;
+  margin-bottom: 33px;
+}
+
+.dresscode-image {
+  margin-bottom: 28px;
+  padding-left: 80px;
 }
 
 .dresscode__description {
-  color: var(--dark-color-text, #212529);
-  font-feature-settings: 'ss01' on, 'ss02' on;
-  font-family: var(--description-font, 'Montserrat', Arial, sans-serif);
+  font-family: var(--font-family);
   font-weight: 300;
-  font-size: 24px;
-  line-height: 120%;
+  font-size: 20px;
+  line-height: 145%;
   letter-spacing: 0.01em;
-  text-align: right;
-  width: 65%;
+  text-align: center;
+  color: #79585f;
   margin: 0;
+  margin-bottom: 39px;
 }
 
-.dresscode__colors {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+.dresscode__list {
+justify-content: center;
   gap: 20px;
-  justify-content: space-between;
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+
 }
 
-.dresscode__color {
+.dresscode__item {
   width: 85px;
   height: 85px;
 }
 
-.dresscode__color_position_one {
-  background: #4b4b4b;
+.dresscode__item_position_one {
+  background: #171614;
 }
 
-.dresscode__color_position_two {
-  background: #878974;
+.dresscode__item_position_two {
+  background: #124559;
 }
 
-.dresscode__color_position_three {
-  background: #e9c3c8;
+.dresscode__item_position_three {
+  background: #598392;
 }
 
-.dresscode__color_position_four {
-  background: #f5e0e0;
+.dresscode__item_position_four {
+  background: #8EA491;
 }
 
-.dresscode__color_position_five {
-  background: #c1daf2;
+.dresscode__item_position_five {
+  background: #D3DABE;
 }
 
 @media all and (max-width: 1279px) {

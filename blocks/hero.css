@@ -42,6 +42,7 @@
 }
 
 .hero__image-left {
+  width: 100%;
   position: absolute;
   top: -294px;
   left: -66px;
@@ -54,6 +55,7 @@
 }
 
 .hero__image-right {
+  width: 100%;
   position: absolute;
   top: -290px;
   right: -59px;

@@ -47,12 +47,13 @@ text-align: center;
 
 .about__image-left {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 82px;
+  bottom: -87px;
 }
 
 .about__image-right {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 78px;
+  bottom: -87px;
 }
+
