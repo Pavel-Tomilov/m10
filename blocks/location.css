@@ -40,28 +40,29 @@ text-align: center;
 .location-image {
   display: inline-block;
 margin-bottom: 36px;
+padding-left: 13px;
 }
 
 .location__image-left {
   position: absolute;
 left: 0;
-top: -131px;
+top: -129px;
 }
 
 .location__image-right {
   position: absolute;
 right: 0;
-top: -131px;
+top: -129px;
 }
 
 .location__image-bottom-left {
   position: absolute;
 left: 0px;
-top: 424px;
+top: 426px;
 }
 
 .location__image-bottom-right {
   position: absolute;
 right: 0;
-top: 401px;
+top: 403px;
 }

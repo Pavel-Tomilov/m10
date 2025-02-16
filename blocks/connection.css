@@ -1,0 +1,131 @@
+.connection {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+.connection__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.connection__image-right {
+position: absolute;
+top: 111px;
+right: 104px;
+}
+
+
+.connection__image-left {
+position: absolute;
+top: 111px;
+left: 104px;
+}
+
+.connection__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.connection__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #79585f;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.connection__text {
+  width: 610px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #79585f;
+  margin: 0;
+  margin-bottom: 54px;
+}
+
+.connection__form {
+  width: 610px;
+}
+
+.connection__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.connection__input {
+  border: 1px solid #79585f;
+  background: var(--background-color);
+  border-radius: 20px;
+  padding: 10px 24px;
+  width: 610px;
+  height: 74px;
+
+}
+
+.input-bottom {
+  margin-bottom: 54px;
+}
+
+.connection__input::placeholder {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0.01em;
+  color: #79585f;
+}
+
+.connection__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.connection__buttons-submit {
+  display: flex;
+  gap: 20px;
+}
+
+.connection__button {
+  border-radius: 14px;
+  padding: 10px 24px;
+  width: 610px;
+  height: 64px;
+  background: #91777b;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #F2F1ED;
+}
+
+.connection__button-adder {
+  border-radius: 14px;
+  padding: 10px 24px;
+  width: 610px;
+  height: 64px;
+  background: #91777b;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 145%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #F2F1ED;
+}

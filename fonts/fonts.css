@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url(./MontserratLight.woff2) format('woff2');
-  src: url(./MontserratLight.woff) format('woff');
-  src: url(./MontserratLight.ttf) format('ttf');
+  src: url(./Montserrat-Light.woff2) format('woff2');
+  src: url(./Montserrat-Light.woff) format('woff');
+   font-display: swap;
   font-style: normal;
   font-weight: 300;
 }
@@ -11,7 +11,7 @@
   font-family: 'Montserrat';
   src: url(./Montserrat-Regular.woff2) format('woff2');
   src: url(./Montserrat-Regular.woff) format('woff');
-  src: url(./Montserrat-Regular.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
@@ -20,7 +20,7 @@
   font-family: 'Roboto';
   src: url(./Roboto-Light.woff2) format('woff2');
   src: url(./Roboto-Light.woff) format('woff');
-  src: url(./Roboto-Light.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
   font-weight: 300;
 }
@@ -29,16 +29,16 @@
   font-family: 'Roboto';
   src: url(./Roboto-Medium.woff2) format('woff2');
   src: url(./Roboto-Medium.woff) format('woff');
-  src: url(./Roboto-Medium.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url(./CormorantGaramond-Regular.woff2) format('woff2');
   src: url(./CormorantGaramond-Regular.woff) format('woff');
-  src: url(./CormorantGaramond-Regular.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
@@ -47,16 +47,16 @@
   font-family: 'Cormorant Garamond';
   src: url(./CormorantGaramond-Medium.woff2) format('woff2');
   src: url(./CormorantGaramond-Medium.woff) format('woff');
-  src: url(./CormorantGaramond-Medium.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @font-face {
   font-family: 'Cormorant Garamond';
   src: url(./CormorantGaramond-Light.woff2) format('woff2');
   src: url(./CormorantGaramond-Light.woff) format('woff');
-  src: url(./CormorantGaramond-Light.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
   font-weight: 300;
 }
@@ -65,7 +65,7 @@
   font-family: 'Corsa Grotesk';
   src: url(./CorsaGrotesk-Regular.woff2) format('woff2');
   src: url(./CorsaGrotesk-Regular.woff) format('woff');
-  src: url(./CorsaGrotesk-Regular.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
   font-weight: 400;
 }
@@ -74,7 +74,7 @@
   font-family: 'Corsa Grotesk';
   src: url(./CorsaGrotesk-Thin.woff2) format('woff2');
   src: url(./CorsaGrotesk-Thin.woff) format('woff');
-  src: url(./CorsaGrotesk-Thin.ttf) format('ttf');
+   font-display: swap;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 100;
 }

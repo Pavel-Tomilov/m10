@@ -1,9 +1,11 @@
 
-@import url(../blocks/menu.css);
 @import url(../blocks/page.css);
+@import url(../blocks/menu.css);
+
 @import url(../blocks/title.css);
 @import url(../blocks/about.css);
 @import url(../blocks/details.css);
+@import url(../blocks/connection.css);
 
 @import url(../blocks/header.css);
 @import url(../blocks/hero.css);
@@ -12,7 +14,6 @@
 @import url(../blocks/timer.css);
 @import url(../blocks/dresscode.css);
 @import url(../blocks/details.css);
-@import url(../blocks/rsvp.css);
 @import url(../blocks/questions.css);
 @import url(../blocks/devider.css);
 @import url(../blocks/footer.css);
