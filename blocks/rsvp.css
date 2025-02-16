@@ -1,25 +1,12 @@
-.rsvp {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 90px;
-  box-sizing: border-box;
-  background: var(--accent-block-backgroung, #343a40);
+.connection{
+
 }
 
-.rsvp__contain {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  max-width: 1600px;
-  min-width: 610px;
-  width: 50%;
-  gap: 46px;
+.connection__container {
+
 }
 
-.rsvp__text {
+.connection__content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,20 +14,16 @@
   gap: 32px;
 }
 
-.rsvp__description {
-  color: var(--accent-block-color-text, #F8F9FA);
-  font-family: var(--description-font, 'Montserrat', Arial, sans-serif);
-  font-feature-settings: 'ss01' on, 'ss02' on;
-  font-size: 24px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
-  text-align: center;
-  font-style: normal;
-  font-weight: 300;
+.connection__title {
+
+}
+
+.connection__text {
+
   margin: 0;
 }
 
-.rsvp__form {
+.connection__form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -49,7 +32,7 @@
   width: 100%;
 }
 
-.rsvp__inputs {
+.connection__inputs {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -58,7 +41,7 @@
   width: 100%;
 }
 
-.rsvp__input {
+.connection__input {
   width: 100%;
   height: 74px;
   padding: 10px 24px;
@@ -69,7 +52,7 @@
   border: none;
 }
 
-.rsvp__input::placeholder {
+.connection__input::placeholder {
   color: var(--accent-block-color-text, #F8F9FA);
   font-feature-settings: 'ss01' on, 'ss02' on;
   font-family: var(--description-font, 'Montserrat', Arial, sans-serif);
@@ -80,7 +63,7 @@
   text-align: start;
 }
 
-.rsvp__buttons {
+.connection__buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,7 +72,7 @@
   gap: 20px;
 }
 
-.rsvp__buttons-submit {
+.connection__buttons-submit {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -97,7 +80,7 @@
   width: 100%;
 }
 
-.rsvp__button {
+.connection__button {
   width: 100%;
   height: 64px;
   padding: 10px 24px;
@@ -117,85 +100,3 @@
   cursor: pointer;
 }
 
-@media all and (max-width: 1279px) {
-  .rsvp__description {
-    font-size: 18px;
-  }
-
-  .rsvp__input {
-    height: 64px;
-  }
-
-  .rsvp__input::placeholder {
-    font-size: 18px;
-  }
-
-  .rsvp__button {
-    box-sizing: border-box;
-    font-size: 18px;
-  }
-}
-
-@media all and (max-width: 732px) {
-  .rsvp {
-    padding: 34px 0;
-  }
-
-  .rsvp__contain {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    width: 100%;
-  }
-
-  .rsvp__image {
-    width: 276px;
-    height: 202px;
-    object-fit: cover;
-    align-self: flex-start;
-  }
-
-  .rsvp__block {
-    gap: 24px;
-    min-width: 260px;
-    margin: 0 20px;
-    max-width: 450px;
-  }
-
-  .rsvp__text {
-    gap: 12px;
-  }
-
-  .rsvp__form {
-    gap: 24px;
-    width: 100%;
-  }
-
-  .rsvp__inputs {
-    gap: 20px;
-    width: 100%;
-  }
-
-  .rsvp__description {
-    font-size: 12px;
-    line-height: 16px;
-  }
-
-  .rsvp__input {
-    width: 100%;
-    height: 35px;
-    padding: 9px 12px;;
-    border-radius: 6px;
-    font-size: 12px;
-    line-height: 16px;
-  }
-
-  .rsvp__button {
-    width: 48%;
-    height: 35px;
-    padding: 0;
-    border-radius: 6px;
-    font-size: 16px;
-    line-height: 12px;
-  }
-}

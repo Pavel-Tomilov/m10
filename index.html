@@ -19,7 +19,7 @@
       <li class="menu__item"><a href="#timeline" class="menu__link">План дня</a></li>
       <li class="menu__item"><a href="#location" class="menu__link">Адрес</a></li>
       <li class="menu__item"><a href="#details" class="menu__link">Детали</a></li>
-      <li class="menu__item"><a href="#rsvp" class="menu__link">Обратная связь</a></li>
+      <li class="menu__item"><a href="#connection" class="menu__link">Обратная связь</a></li>
       <li class="menu__item"><a href="#questions" class="menu__link">Опрос</a></li>
     </ul>
   </div>
@@ -46,8 +46,8 @@
   <h1 class="visually-hidden">Приглашение на свадьбу</h1>
   <main class="main">
     <section class="hero" id="hero">
-      <div class="hero__image-left"></div>
-      <div class="hero__image-right"></div>
+<img class="hero__image-left" src="image/img2.png" alt="">
+<img class="hero__image-right" src="image/img1.png" alt="">
       <div class="container hero__container">
         <div class="hero__top">
           <div class="hero__date">06.08.2024</div>
@@ -71,10 +71,10 @@
     <section class="location" id="location">
       <div class="container">
         <div class="location__container">
-          <div class="image-left"></div>
-          <div class="image-right"></div>
-          <div class="image-bottom-left"></div>
-          <div class="image-bottom-right"></div>
+          <img class="location__image-left" src="image/location-left.png" alt="">
+          <img class="location__image-right" src="image/location-right.png" alt="">
+          <img class="location__image-bottom-left" src="image/img-loc-bot-left.png" alt="">
+          <img class="location__image-bottom-right" src="image/img-loc-bot-right.png" alt="">
           <div class="location__place">
             <h3 class="location__title">Регистрация</h3>
             <img class="location-image" src="../image/line-location.svg" alt="">
@@ -135,6 +135,10 @@
     </section>
     <section class="details">
       <div class="container details__container">
+        <img class="details__pattern-left" src="image/img-details-left.png" alt="">
+        <img class="details__pattern-right" src="image/img-details-right.png" alt="">
+        <img class="details__image-left" src="../image/line-left.svg" alt="">
+        <img class="details__image-right" src="../image/line-right.svg" alt="">
         <div class="details__content">
           <h3 class="details__title">Детали</h3>
           <p class="details__text">Просим вас воздержаться от криков «Горько!» и сохранить атмосферу уютного семейного
@@ -146,31 +150,31 @@
       </div>
     </section>
 
-    <!-- <section class="rsvp" id="rsvp">
-      <div class="rsvp__contain">
-        <div class="rsvp__text">
-          <h3 class="title title__light">Обратная связь</h3>
-          <p class="rsvp__description">Пожалуйста, подтвердите ваше присутствие на нашем празднике до 01 июля 2024 года
+    <section class="connection" id="connection">
+      <div class="container connection__container">
+        <div class="connection__content">
+          <h3 class="connection__title">Обратная связь</h3>
+          <p class="connection__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до 01 июля 2024 года
             любым удобным для вас способом или заполните форму ниже</p>
         </div>
-        <form class="rsvp__form" name="rsvp" id="rsvp">
-          <div class="rsvp__inputs">
-            <input type="text" placeholder="Имя и Фамилия" id="name" required class="rsvp__input"></input>
+        <form class="connection__form" name="connection" id="connection">
+          <div class="connection__inputs">
+            <input type="text" placeholder="Имя и Фамилия" id="name" required class="connection__input"></input>
             <input type="number" min="0" max="10" placeholder="Количество персон" id="person" required
-              class="rsvp__input"></input>
+              class="connection__input"></input>
           </div>
-          <div class="rsvp__buttons">
-            <button class="rsvp__button rsvp__button-adder" name="Добавить" type="submit">Добавить гостя</button>
-            <div class="rsvp__buttons-submit">
-              <button class="rsvp__button" name="Принято" type="submit">Подтвердить</button>
-              <button class="rsvp__button" name="Отклонено" type="submit">Отклонить</button>
+          <div class="connection__buttons">
+            <button class="connection__button connection__button-adder" name="Добавить" type="submit">Добавить гостя</button>
+            <div class="connection__buttons-submit">
+              <button class="connection__button" name="Принято" type="submit">Подтвердить</button>
+              <button class="connection__button" name="Отклонено" type="submit">Отклонить</button>
             </div>
           </div>
         </form>
       </div>
     </section>
 
-    <section class="questions" id="questions">
+    <!-- <section class="questions" id="questions">
       <div class="questions__texts">
         <h3 class="title">Опрос</h3>
         <p class="questions__description">Чтобы все прошло идеально и этот день оставил незабываемые впечатления,

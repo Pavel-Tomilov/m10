@@ -1,4 +1,5 @@
 .details {
+  position: relative;
   padding-top: 130px;
   padding-bottom: 130px;
 }
@@ -35,4 +36,29 @@ margin-bottom: 32px;
   color: #79585f;
   margin: 0;
   margin-bottom: 20px;
+}
+
+.details__image-left {
+  position: absolute;
+  left: 261px;
+  bottom: 150px;
+}
+
+.details__image-right {
+  position: absolute;
+  right: 243px;
+  bottom: 150px;
+}
+
+.details__pattern-left {
+position: absolute;
+left: 0;
+top: -10px;
+}
+
+
+.details__pattern-right {
+  position: absolute;
+  right: 0;
+  top: -10px;
 }

@@ -4,7 +4,7 @@ padding-bottom: 122px;
 }
 
 .header__container {
-padding-top: 41px;
+padding-top: 37px;
 padding-bottom: 41px;
 }
 
@@ -15,12 +15,12 @@ padding-bottom: 41px;
 .nav__list {
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 42px;
 }
 
 .nav__link {
   color: var(--accent-color-text);
-  font-family: var(--sub-font);
+  font-family: var(--second-family);
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;

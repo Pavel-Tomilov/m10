@@ -42,29 +42,17 @@
 }
 
 .hero__image-left {
-  width: 100%;
   position: absolute;
-  top: -294px;
-  left: -66px;
-  width: 694px;
-  height: 1053px;
-  background-image: url(../image/img2.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  top: -285px;
+  left: 0;
+
 }
 
 .hero__image-right {
-  width: 100%;
   position: absolute;
-  top: -290px;
-  right: -59px;
-  width: 694px;
-  height: 1053px;
-  background-image: url(../image/img1.png);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  top: -285px;
+  right: 0;
+
 }
 
 
