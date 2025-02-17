@@ -1,20 +1,42 @@
 .timer {
- position: relative;
- padding-top: 45px;
- padding-bottom: 119px;
+  position: relative;
+  padding-top: 48px;
+  padding-bottom: 122px;
 }
 
 .timer__blok {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 32px;
   justify-content: space-between;
   z-index: 4;
+  width: 994px;
+  height: 420px;
+  padding-top: 83px;
+  padding-bottom: 80px;
+  outline: 2px solid var(--accent-color-text);
+  border-radius: 100px;
+}
+
+
+.timer__title {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 64px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #79585f;
+  margin: 0;
+}
+
+.timer-row {
+  justify-content: center;
+  gap: 54px;
 }
 
 .timer__container {
-  width: 820px;
-  height: 413px;
+  width: 1024px;
+  height: 451px;
   outline: 3px solid var(--accent-color-text);
   border-radius: 100px;
   display: flex;
@@ -23,39 +45,33 @@
   align-items: center;
 }
 
+
 .timer__block-info {
-  display: flex;
-  min-width: 155px;
-  padding: 16px 8px;
-  box-sizing: border-box;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 12px;
+  border: 1px solid #91777b;
   border-radius: 20px;
-  background: rgba(98, 98, 98, 0.2);
-  font-family: var(----sub-font, 'Noto Serif', Courier);
-  font-weight: 300;
-  text-align: center;
+  padding: 16px 8px;
+  width: 155px;
+  height: 138px;
 }
 
 .timer__number {
-  color: var(--dark-color-text, #212529);
+  font-family: var(--third-family);
+  font-weight: 250;
+  font-size: 64px;
+  line-height: 102%;
   text-align: center;
-  font-size: 48px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
-  margin: 0;
+  color: #79585f;
+  margin-bottom: 11px;
 }
 
 .timer__text {
-  color: var(--dark-color-text, #212529);
-  text-align: center;
-  font-feature-settings: 'ss01' on, 'ss02' on;
-  font-family: var(--description-font, 'Montserrat', Arial, sans-serif);
-  font-size: 24px;
-  line-height: 120%;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 145%;
   letter-spacing: 0.01em;
+  text-align: center;
+  color: #79585f;
   margin: 0;
 }
 

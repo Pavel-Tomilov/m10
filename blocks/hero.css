@@ -33,12 +33,12 @@
 
 .hero__title {
   margin: 0;
-  color: var(--accent-color-text);
-  font-family: var(--sub-font);
-  font-size: 96px;
+  font-family: var(--second-family);
   font-weight: 300;
-  text-align: center;
+  font-size: 96px;
   text-transform: uppercase;
+  text-align: center;
+  color: #79585f;
 }
 
 .hero__image-left {
@@ -55,70 +55,6 @@
 
 }
 
-
-
-
-
-.info__description {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: var(--basa-font, 'Montserrat', Arial, sans-serif);
-  font-feature-settings: 'ss01'on, 'ss02'on;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
-  gap: 32px;
-}
-
-.info__text {
-  margin: 0;
-}
-
-.info__date {
-  font-family: var(--sub-font, 'Cormorant', Arial, sans-serif);
-  color: var(--dark-color-text, #212529);
-  font-weight: 300;
-  font-size: 64px;
-  line-height: 120%;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 15px;
-}
-
-.info__number {
-  padding-right: 15px;
-  border-right: 1px solid black;
-  margin: 0;
-}
-
-.info__number:last-child {
-  padding: 0;
-  border-right: none;
-}
-
-.info__image {
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.info__image_position_top {
-  object-fit: contain;
-  max-width: 200px;
-  max-height: 333px;
-  align-self: flex-end;
-}
-
-.info__image_position_bottom {
-  object-fit: contain;
-  max-width: 200px;
-  max-height: 416px;
-  align-self: flex-end;
-}
 
 @media all and (max-width: 1279px) {
   .info__contain {

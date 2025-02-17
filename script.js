@@ -9,7 +9,7 @@ wrapper.addEventListener('click', myFunction);
 // }
 
 function myFunction() {
-  var element = document.querySelector('.menu');
+  let element = document.querySelector('.menu');
   element.classList.toggle("menu__open");
   wrapper.classList.toggle("change");
 }
