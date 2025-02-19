@@ -79,3 +79,14 @@ img {
   display: flex;
 }
 
+input {
+  outline: none;
+}
+
+input:focus {
+  color:#79585F;
+}
+
+input:active {
+  color:#79585F;
+}

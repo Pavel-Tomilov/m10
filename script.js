@@ -1,12 +1,48 @@
 const wrapper = document.querySelector('.icon-burger');
 wrapper.addEventListener('click', myFunction);
 
-// const adder = document.querySelector('.rsvp__button-adder');
+// const adder = document.querySelector('.connection__button-adder');
 // adder.addEventListener('click', myFunction);
 
 // function adderGuests() {
 
 // }
+
+// Функция для получения цвета placeholder
+function getPlaceholderColor(input) {
+  // Получаем цвет placeholder через getComputedStyle
+  const style = window.getComputedStyle(input, '::placeholder');
+  return style.color;
+}
+
+// Применяем тот же цвет текста, что и у placeholder
+document.querySelectorAll('.input-field').forEach(input => {
+  const placeholderColor = getPlaceholderColor(input); // Цвет placeholder
+
+  // Слушаем событие ввода текста
+  input.addEventListener('input', function() {
+    if (this.value.length > 0) {
+      // Если текст введён, устанавливаем цвет такой же, как у placeholder
+      this.style.color = placeholderColor;
+    } else {
+      // Если поле пустое, оставляем стандартный цвет
+      this.style.color = '';
+    }
+  });
+
+  // При фокусе также сохраняем цвет placeholder
+  input.addEventListener('focus', function() {
+    this.style.color = placeholderColor;
+  });
+
+  // При потере фокуса, если поле пустое, снова ставим цвет placeholder
+  input.addEventListener('blur', function() {
+    if (this.value === '') {
+      this.style.color = placeholderColor;
+    }
+  });
+});
+
 
 function myFunction() {
   let element = document.querySelector('.menu');

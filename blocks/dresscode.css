@@ -1,11 +1,11 @@
 .dresscode {
   padding-top: 123px;
   padding-bottom: 123px;
-position: relative;
+  position: relative;
 }
 
 .dresscode__container {
-width: 610px;
+  width: 610px;
 }
 
 .dresscode__image-left {
@@ -49,9 +49,8 @@ width: 610px;
 }
 
 .dresscode__list {
-justify-content: center;
+  justify-content: center;
   gap: 20px;
-
 }
 
 .dresscode__item {
@@ -79,92 +78,44 @@ justify-content: center;
   background: #D3DABE;
 }
 
-@media all and (max-width: 1279px) {
-  .dresscode__texts {
-    padding: 80px 100px;
-    gap: 24px;
-  }
+@media(max-width: 1025px) {
 
-  .dresscode__title {
-    font-size: 48px;
-  }
-
-  .dresscode__description {
-    font-size: 18px;
-  }
-
-  .dresscode__colors {
-    gap: 15px;
-  }
-
-  .dresscode__color {
-    width: 55px;
-    height: 55px;
-  }
-}
-
-@media (min-width: 733px) and (max-width: 1025px) {
   .dresscode {
-    gap: 46px;
-    padding: 88px 40px 88px 96px;
-    align-items: flex-start;
+    padding-bottom: 205px;
   }
 
-  .dresscode__texts {
-    padding: 0;
-    max-width: 700px;
-  }
-
-  .dresscode__figures {
-    gap: 0;
-  }
-
-  .dresscode__line-first {
-    display: none;
-  }
-
-  .dresscode__line-last {
-    display: none;
-  }
+  .dresscode__list {
+    justify-content: flex-start;
+    padding-left: 42px;
+    gap: 20px;
 }
 
-@media all and (max-width: 732px) {
-  .dresscode {
-    gap: 25px;
-    padding: 44px 48px;
-    align-items: flex-start;
-  }
-
-  .dresscode__texts {
-    padding: 0;
-    max-width: 700px;
-    gap: 12px;
-  }
-
-  .dresscode__description {
-    font-size: 12px;
-    line-height: 16px;
-    max-width: 400px;
-  }
-
-  .dresscode__figures {
-    gap: 0;
-  }
-
-  .dresscode__colors {
-    gap: 12px;
-  }
-
-  .dresscode__color {
-    width: 35px;
-    height: 35px;
-  }
-
-  .dresscode__line-first {
-    display: none;
-  }
-
-  .dresscode__line-last {
-    display: none;
-  }
+.dresscode__image-left {
+  top: -11px;
 }
+.dresscode__image-right {
+  top: -11px;
+}
+
+
+}
+
+@media (max-width:500px) {
+.dresscode__container {
+  width: auto;
+}
+
+.dresscode__title {
+  font-size: 36px;
+}
+
+.dresscode__description {
+  font-size: 16px;
+}
+
+.dresscode__item {
+  width: 35px;
+  height: 35px;
+}
+}
+

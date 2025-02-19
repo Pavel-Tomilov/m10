@@ -15,7 +15,7 @@
 
   <div class="menu">
     <ul class="menu__links">
-      <li class="menu__item"><a href="#header" class="menu__link">Главная</a></li>
+      <li class="menu__item"><a href="#hero" class="menu__link">Главная</a></li>
       <li class="menu__item"><a href="#timeline" class="menu__link">План дня</a></li>
       <li class="menu__item"><a href="#location" class="menu__link">Адрес</a></li>
       <li class="menu__item"><a href="#details" class="menu__link">Детали</a></li>
@@ -33,12 +33,12 @@
     <div class="container header__container">
       <nav class="nav">
         <ul class="list-reset nav__list flex">
-          <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">План дня</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Адрес</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Детали</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Обратная связь</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">Опрос</a></li>
+          <li class="nav__item"><a href="#hero" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="#timeline" class="nav__link">План дня</a></li>
+          <li class="nav__item"><a href="#location" class="nav__link">Адрес</a></li>
+          <li class="nav__item"><a href="#details" class="nav__link">Детали</a></li>
+          <li class="nav__item"><a href="#connection" class="nav__link">Обратная связь</a></li>
+          <li class="nav__item"><a href="#questions" class="nav__link">Опрос</a></li>
         </ul>
       </nav>
     </div>
@@ -46,13 +46,23 @@
   <h1 class="visually-hidden">Приглашение на свадьбу</h1>
   <main class="main">
     <section class="hero" id="hero">
-<img class="hero__image-left" src="image/img2.png" alt="">
-<img class="hero__image-right" src="image/img1.png" alt="">
+<picture>
+  <source srcset="image/img-hero-top390.png" media="(max-width: 500px)">
+  <source srcset="image/img-hero-left773.png" media="(max-width: 1025px)">
+  <img class="hero__image-left" src="image/img2.png" alt="">
+</picture>
+<picture>
+  <source srcset="image/img-hero-bot390.png" media="(max-width: 500px)">
+  <source srcset="image/img-hero-bot773.png" media="(max-width: 1025px)">
+  <img class="hero__image-right" src="image/img1.png" alt="">
+</picture>
       <div class="container hero__container">
         <div class="hero__top">
-           <p class="hero__date">06.08.24</p>
-          <h2 class="hero__title">МИХАИЛ</h2>
-          <h2 class="hero__title">ИРИНА</h2>
+          <div class="hero-390">
+             <p class="hero__date">06.08.24</p>
+            <h2 class="hero__title">МИХАИЛ</h2>
+            <h2 class="hero__title">ИРИНА</h2>
+          </div>
 
         </div>
       </div>
@@ -60,28 +70,47 @@
     <section class="about" id="about">
       <div class="container">
         <div class="about__container">
+
           <img class="about__image-left" src="../image/line-left.svg" alt="">
           <img class="about__image-right" src="../image/line-right.svg" alt="">
           <div class="about__date">06.08.24</div>
           <h3 class="about__title">мы женимся</h3>
           <p class="about__text">Мы счастливы поделиться с вами радостной новостью: наша история любви привела нас
             к моменту, когда мы готовы создать свою <br> собственную семью</p>
+
         </div>
+
       </div>
     </section>
     <section class="location" id="location">
       <div class="container">
         <div class="location__container">
-          <img class="location__image-left" src="image/location-left.png" alt="">
-          <img class="location__image-right" src="image/location-right.png" alt="">
-          <img class="location__image-bottom-left" src="image/img-loc-bot-left.png" alt="">
-          <img class="location__image-bottom-right" src="image/img-loc-bot-right.png" alt="">
-          <div class="location__place">
+          <picture>
+            <source srcset="image/img-loc-l390.png" media="(max-width:500px)">
+            <source srcset="image/img-loc-left744.png" media="(max-width:1025px)">
+            <img class="location__image-left" src="image/location-left.png" alt="">
+          </picture>
+          <picture>
+            <source srcset="image/img-loc-r390.png" media="(max-width:500px)">
+            <source srcset="image/img-loc-right744.png" media="(max-width:1025px)">
+            <img class="location__image-right" src="image/location-right.png" alt="">
+          </picture>
+          <picture>
+            <source srcset="image/img-loc-bot-r390.png" media="(max-width:500px)">
+            <source srcset="image/img-loc-bot744.png" media="(max-width:1025px)">
+            <img class="location__image-bottom-left" src="image/img-loc-bot-left.png" alt="">
+          </picture>
+          <picture>
+            <source srcset="image/img-loc-bot-l390.png" media="(max-width:500px)">
+            <source srcset="image/img-loc-botright744.png" media="(max-width:1025px)">
+            <img class="location__image-bottom-right" src="image/img-loc-bot-right.png" alt="">
+          </picture>
+          <div class="location__place place-top">
             <h3 class="location__title">Регистрация</h3>
             <img class="location-image" src="../image/line-location.svg" alt="">
             <p class="location__adress">Дворец бракосочетания №1,</br>Санкт-Петербург, Английская наб., 28.</p>
           </div>
-          <div class="location__place">
+          <div class="location__place place-bottom">
 
             <h3 class="location__title">ужин</h3>
             <img class="location-image" src="../image/line-location.svg" alt="">
@@ -92,34 +121,48 @@
     </section>
     <section class="timeline" id="timeline">
       <div class="container">
+        <h3 class="timeline__title">план дня</h3>
         <div class="timeline__container flex">
-          <h3 class="timeline__title">план дня</h3>
-          <ul class="list-reset timeline__list-top flex">
-            <li class="timeline__item-top">14:00</li>
-            <li class="timeline__item-top">15:00</li>
-            <li class="timeline__item-top">15:30</li>
-            <li class="timeline__item-top">16:00</li>
-            <li class="timeline__item-top">21:00</li>
-            <li class="timeline__item-top">21:30</li>
-            <li class="timeline__item-top">22:00</li>
-          </ul>
-          <img class="timeline__image" src="../image/line-timeline.png" alt="">
-          <ul class="list-reset timeline__list-bottom flex">
-            <li class="timeline__item-bottom">Сбор гостей</li>
-            <li class="timeline__item-bottom">Регистрация</li>
-            <li class="timeline__item-bottom">Фуршет</li>
-            <li class="timeline__item-bottom">Ужин</li>
-            <li class="timeline__item-bottom">Торт</li>
-            <li class="timeline__item-bottom">Танцы</li>
-            <li class="timeline__item-bottom">Окончание</li>
-          </ul>
-        </div>
+
+            <ul class="list-reset timeline__list-top flex">
+              <li class="timeline__item-top top1">14:00</li>
+              <li class="timeline__item-top top2">15:00</li>
+              <li class="timeline__item-top top3">15:30</li>
+              <li class="timeline__item-top top4">16:00</li>
+              <li class="timeline__item-top top5">21:00</li>
+              <li class="timeline__item-top top6">21:30</li>
+              <li class="timeline__item-top">22:00</li>
+            </ul>
+           <div class="timeline__image">
+              <picture>
+                <source srcset="image/timeline-744.png" media="(max-width:1025px)">
+                <img src="image/line-timeline.png" alt="">
+              </picture>
+           </div>
+            <ul class="list-reset timeline__list-bottom flex">
+              <li class="timeline__item-bottom bottom1">Сбор гостей</li>
+              <li class="timeline__item-bottom bottom2">Регистрация</li>
+              <li class="timeline__item-bottom bottom3">Фуршет</li>
+              <li class="timeline__item-bottom bottom4">Ужин</li>
+              <li class="timeline__item-bottom bottom5">Торт</li>
+              <li class="timeline__item-bottom bottom6">Танцы</li>
+              <li class="timeline__item-bottom bottom7">Окончание</li>
+            </ul>
+         </div>
 
       </div>
     </section>
     <section class="dresscode">
-      <div class="dresscode__image-left"><img src="../image/dress-img-left.png" alt=""></div>
-      <div class="dresscode__image-right"><img src="../image/dress-img-right.png" alt=""></div>
+     <picture>
+        <source srcset="image/img-dres-l390.png" media="(max-width:500px)">
+        <source srcset="image/img-dress-left744.png" media="(max-width:1025px)">
+        <img class="dresscode__image-left" src="../image/dress-img-left.png" alt="">
+     </picture>
+     <picture>
+       <source srcset="image/img-dres-r390.png" media="(max-width:500px)">
+       <source srcset="image/img-dress-right744.png" media="(max-width:1025px)">
+        <img class="dresscode__image-right" src="../image/dress-img-right.png" alt="">
+     </picture>
       <div class="container dresscode__container">
         <h3 class="dresscode__title">Дресс-код</h3>
         <img class="dresscode-image" src="../image/line-location.svg" alt="">
@@ -134,10 +177,16 @@
         </ul>
       </div>
     </section>
-    <section class="details">
+    <section class="details" id="details">
       <div class="container details__container">
-        <img class="details__pattern-left" src="image/img-details-left.png" alt="">
-        <img class="details__pattern-right" src="image/img-details-right.png" alt="">
+       <picture>
+          <source srcset="image/img-det-left744.png" media="(max-width:1025px)">
+          <img class="details__pattern-left" src="image/img-details-left.png" alt="">
+       </picture>
+        <picture>
+          <source srcset="image/img-det-right744.png" media="(max-width:1025px)">
+          <img class="details__pattern-right" src="image/img-details-right.png" alt="">
+        </picture>
         <img class="details__image-left" src="../image/line-left.svg" alt="">
         <img class="details__image-right" src="../image/line-right.svg" alt="">
         <div class="details__content">
@@ -153,8 +202,14 @@
 
     <section class="connection" id="connection">
       <div class="container connection__container">
-        <img class="connection__image-left" src="image/img-connect-left.png" alt="">
-        <img class="connection__image-right" src="image/img-connect-right.png" alt="">
+       <picture>
+          <source srcset="image/img-con-left744.png" media="(max-width:1025px)">
+          <img class="connection__image-left" src="image/img-connect-left.png" alt="">
+       </picture>
+        <picture>
+          <source srcset="image/img-con-right744.png" media="(max-width:1025px)">
+          <img class="connection__image-right" src="image/img-connect-right.png" alt="">
+        </picture>
         <div class="connection__content">
           <h3 class="connection__title">Обратная связь</h3>
           <p class="connection__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до 01 июля 2024 года
@@ -162,12 +217,12 @@
         </div>
         <form class="connection__form" name="connection" id="connection">
           <div class="connection__inputs">
-            <input type="text" placeholder="Имя и Фамилия" id="name" required class="connection__input"></input>
+            <input type="text" placeholder="Имя и Фамилия" id="name" required class="input-field connection__input"></input>
             <input type="number" min="0" max="10" placeholder="Гость №1" id="person" required
-              class="connection__input input-bottom"></input>
+              class="input-field connection__input input-bottom"></input>
           </div>
           <div class="connection__buttons">
-            <button class="btn-reset connection__button connection__button-adder" name="Добавить" type="submit">Добавить гостя</button>
+            <button class="btn-reset connection__button-adder" name="Добавить" type="submit">Добавить гостя</button>
             <div class="connection__buttons-submit">
               <button class="btn-reset connection__button" name="Принято" type="submit">Подтвердить</button>
               <button class="btn-reset connection__button" name="Отклонено" type="submit">Отклонить</button>
@@ -189,7 +244,7 @@
             Сначала заполните и отправьте для одного гостя, затем для другого.</p>
         </div>
         <form class="questions__form">
-          <input type="text" placeholder="Имя и Фамилия" id="who" required class="questions__input" minLength={2}></input>
+          <input type="text" placeholder="Имя и Фамилия" id="who" required class="input-field questions__input" minLength={2}></input>
           <fieldset class="questions__string">
             <legend class="questions__legend">Предпочтение по еде:</legend>
            <div class="questions__options">
@@ -213,7 +268,7 @@
           <fieldset class="questions__string">
             <legend class="questions__legend">Предпочтение по алкоголю:</legend>
            <div class="questions__options-bottom">
-             <div class="questions__top">
+             <!-- <div class="questions__top"> -->
                 <label htmlFor="redVine" class="questions__label">
                   <input class="questions__unvisible" type="checkbox" name="Красное вино" value="Красное вино"
                     id="redVine"></input>
@@ -232,8 +287,8 @@
                   <span class="questions__visible-radio"></span>
                   <span class="questions__text-span">Игристое вино</span>
                 </label>
-             </div>
-             <div class="questions__bottom">
+             <!-- </div> -->
+             <!-- <div class="questions__bottom"> -->
                 <label htmlFor="strong" class="questions__label">
                   <input class="questions__unvisible" type="checkbox" name="Крепкий алкоголь" value="Крепкий алкоголь"
                     id="strong"></input>
@@ -246,12 +301,12 @@
                   <span class="questions__visible-radio"></span>
                   <span class="questions__text-span">Безалкогольные напитки</span>
                 </label>
-             </div>
+             <!-- </div> -->
            </div>
           </fieldset>
           <p class="questions__string">
             <legend class="questions__legend-allergy">Есть ли у вас пищевая аллергия и на какие продукты:</legend>
-            <input type="text" name="Аллергия" id="allergy" required class="questions__input-allergy"></input>
+            <input type="text" placeholder="" name="Аллергия" id="allergy" required class="input-field questions__input-allergy"></input>
           </p>
           <button type="submit" class="btn-reset questions__button">Подтвердить</button>
         </form>
@@ -286,7 +341,7 @@
   </main>
   <footer class="footer">
     <p class="footer__text">Создано с помощью сервиса</p>
-    <img src="image/logo.svg" class="footer__logo">
+    <a href="#"><img src="image/logo.svg" class="footer__logo"></a>
   </footer>
   <script src="script.js"></script>
 </body>

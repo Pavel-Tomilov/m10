@@ -31,3 +31,14 @@ padding-bottom: 41px;
 .image {
   background-color: black;
 }
+
+@media (max-width: 1025px) {
+
+  .header {
+    padding-bottom: 74px;
+}
+
+  .nav {
+    display: none;
+  }
+}

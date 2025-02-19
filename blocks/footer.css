@@ -40,3 +40,10 @@
     height: 19px;
   }
 }
+
+
+@media (max-width:1025px) {
+  .footer {
+    padding: 86px 0;
+  }
+}

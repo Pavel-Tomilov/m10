@@ -75,75 +75,59 @@
   margin: 0;
 }
 
-@media all and (max-width: 1279px) {
-  .timer {
-    gap: 32px;
-  }
+@media (max-width:1025px) {
+
+.timer {
+  padding-bottom: 29px;
+}
 
   .timer__blok {
-    gap: 32px;
+    width: auto;
+    height: auto;
+    outline: none;
   }
 
-  .timer__block-info {
-    min-width: 120px;
-    padding: 12px 5px;
-    gap: 8px;
+  .timer__title {
+    margin-bottom: 13px;
   }
 
-  .timer__number {
-    font-size: 40px;
+  .timer__container {
+    width: auto;
+    height: auto;
+    outline: none;
   }
 
-  .timer__text {
-    font-size: 18px;
+  .timer-row {
+    gap: 13px;
   }
 }
 
-@media (min-width: 733px) and (max-width: 1025px) {
-  .timer {
-    padding: 100px 0;
-    gap: 30px;
-  }
-
-  .timer__blok {
-    gap: 34px;
+@media (max-width: 500px) {
+  .timer__title {
+    font-size: 36px;
   }
 
   .timer__block-info {
-    min-width: 130px;
-    padding: 16px 8px;
+    border: 1px solid #91777b;
+border-radius: 8px;
+padding: 16px 8px;
+width: 64px;
+height: 64px;
   }
 
   .timer__number {
-    font-size: 44px;
-    line-height: 45px;
-  }
-}
-
-@media all and (max-width: 732px) {
-  .timer {
-    padding: 59px 20px;
-    gap: 16px;
-  }
-
-  .timer__blok {
-    gap: 8px;
-  }
-
-  .timer__block-info {
-    min-width: 64px;
-    min-height: 64px;
-    padding: 6px 6px;
-    gap: 2px;
-  }
-
-  .timer__number {
+    font-weight: 250;
     font-size: 24px;
-    line-height: normal;
+    text-align: center;
+    color: #79585f;
+    margin-bottom: 2px;
   }
 
   .timer__text {
     font-size: 12px;
-    line-height: 16px;
   }
 }
+
+
+
+

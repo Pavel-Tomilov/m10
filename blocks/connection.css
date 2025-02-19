@@ -1,7 +1,7 @@
 .connection {
   position: relative;
   padding-top: 30px;
-  padding-bottom: 38px;
+  padding-bottom: 153px;
 }
 
 .connection__container {
@@ -128,4 +128,73 @@ left: 104px;
   letter-spacing: 0.01em;
   text-align: center;
   color: #F2F1ED;
+}
+
+@media (max-width:1025px) {
+
+  .connection__image-left {
+    top: -167px;
+    left: 0;
+}
+
+.connection__image-right {
+  top: -167px;
+  right: 0;
+}
+}
+
+@media (max-width:500px) {
+  .connection__image-left {
+  display: none;
+}
+
+.connection__image-right {
+  display: none;
+}
+
+.connection__text {
+  width: auto;
+  font-size: 16px;
+}
+
+.connection__title {
+  font-size: 36px;
+}
+
+.connection__form {
+  width: auto;
+}
+
+.connection__input {
+  border: 1px solid #79585f;
+  background: var(--background-color);
+  border-radius: 6px;
+padding: 10px 24px;
+width: 350px;
+height: 49px;
+}
+
+.connection__button-adder {
+  border-radius: 6px;
+  padding: 10px 24px;
+  width: 350px;
+  height: 44px;
+  font-size: 16px;
+}
+
+.connection__button {
+  border-radius: 6px;
+  padding: 10px 24px;
+  width: 171px;
+  height: 44px;
+  font-size: 16px;
+}
+
+.connection__buttons {
+  gap: 8px;
+}
+
+.connection__buttons-submit {
+  gap: 8px;
+}
 }

@@ -1,6 +1,6 @@
 .menu {
   display: none;
-  position: fixed;
+  position: relative;
   top: 0;
   right: 0;
   padding: 44px 0;
@@ -8,7 +8,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: var(--accent-block-backgroung, #343A40);
+  background: #79585f;
   z-index: 10;
   overflow: hidden;
 }
@@ -18,7 +18,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 26px;
+  gap: 12px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -29,42 +29,40 @@
 }
 
 .menu__link {
-  font-family: var(--basa-font, 'Montserrat', Courier, monospace);
-  font-feature-settings: 'ss01' on, 'ss02' on;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0.01em;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 48px;
+  text-transform: uppercase;
   text-align: center;
-  color: var(--accent-block-color-text, #e3e3e3);
+  color: #F2F1ED;
   text-decoration: none;
 }
 
 .icon-burger {
   display: none;
   position: absolute;
-  top: 112px;
-  right: 40px;
-  width: 97px;
+  top: 109px;
+  right: 36px;
+  width: 96px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 9px;
   flex-shrink: 0;
   z-index: 10;
   cursor: pointer;
 }
 
 .icon-line {
-  width: 97px;
+  width: 96px;
   height: 3px;
-  background-color: var(--accent-block-backgroung, #343A40);
+  background-color: #91777B;
   transition: transform 1s;
 }
 
 .change .icon-line__one {
-  -webkit-transform: rotate(-45deg) translate(-18px, 0) ;
-  transform: rotate(-45deg) translate(-18px, 0) ;
+  -webkit-transform: rotate(-45deg) translate(-18px, 0);
+  transform: rotate(-45deg) translate(-18px, 0);
   background-color: var(--accent-block-color-text, #e3e3e3);
 }
 
@@ -74,34 +72,18 @@
 }
 
 .change .icon-line__three {
-  -webkit-transform: rotate(45deg) translate(-18px, 0) ;
-  transform: rotate(45deg) translate(-18px, -3px) ;
+  -webkit-transform: rotate(45deg) translate(-18px, 0);
+  transform: rotate(45deg) translate(-17px, 1px);
   background-color: var(--accent-block-color-text, #e3e3e3);
 }
 
-@media all and (max-width: 1280px) {
-  .menu__links {
-    width: 75%;
-  }
 
-  .menu__link {
-    font-size: 18px;
-  }
-}
 
 @media (max-width: 1025px) {
-  .menu {
-    display: flex;
-    height: 100vh;
-    right: -100vw;
-    transition: right 1s;
-    padding: 0;
-  }
 
   .menu__open {
-    width: 100%;
-    right: 0;
-    transition: right 1s;
+    display: flex;
+    height: 744px;
   }
 
   .menu__links {
@@ -114,22 +96,18 @@
   }
 
   .icon-line {
-    width: 97px;
+    width: 96px;
     height: 3px;
     transition: transform 1s;
   }
 }
 
-@media all and (max-width: 732px) {
-  .menu {
-    height: 100vh;
-    transition: right 1s;
-  }
+@media (max-width: 500px) {
+
 
   .menu__open {
-    width: 100%;
-    right: 0;
-    transition: right 1s;
+    display: flex;
+    height: 844px;
   }
 
   .menu__links {
@@ -139,11 +117,12 @@
 
   .icon-burger {
     display: flex;
-    top: 50px;
+    top: 71px;
     right: 20px;
-    gap: 6px;
+    gap: 4px;
     width: 40px;
     height: 18px;
+
   }
 
   .icon-line {
@@ -152,52 +131,10 @@
   }
 
   .change .icon-line__one {
-    transform: rotate(-45deg) translate(-6px, 6px) ;
+    transform: rotate(-45deg) translate(-6px, 6px);
   }
 
   .change .icon-line__three {
-    transform: rotate(45deg) translate(-6px, -6px) ;
+    transform: rotate(45deg) translate(-6px, -6px);
   }
 }
-
-@media (max-height: 500px) and (max-width: 1025px) {
-  .menu {
-    height: 100vh;
-    transition: right 1s;
-  }
-
-  .menu__open {
-    width: 100%;
-    right: 0;
-    transition: right 1s;
-  }
-
-  .menu__links {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .icon-burger {
-    display: flex;
-    top: 50px;
-    right: 20px;
-    gap: 6px;
-    width: 40px;
-    height: 18px;
-  }
-
-  .icon-line {
-    width: 40px;
-    height: 2px;
-  }
-
-  .change .icon-line__one {
-    transform: rotate(-45deg) translate(-6px, 6px) ;
-  }
-
-  .change .icon-line__three {
-    transform: rotate(45deg) translate(-6px, -6px) ;
-  }
-}
-
-

@@ -20,9 +20,34 @@ align-items: center;
   margin-bottom: 73px;
 }
 
+
 .timeline__list-top {
-gap: 80px;
-margin-bottom: 16px;
+  width: 1200px;
+  margin-bottom: 16px;
+  padding-left: 168px;
+}
+
+.top-left {
+  margin-right: 6px;
+}
+
+.top1 {
+  margin-right: 86px;
+}
+.top2 {
+  margin-right: 124px;
+}
+.top3 {
+  margin-right: 84px;
+}
+.top4 {
+  margin-right: 74px;
+}
+.top5 {
+  margin-right: 92px;
+}
+.top6 {
+  margin-right: 92px;
 }
 
 .timeline__item-top {
@@ -36,11 +61,12 @@ margin-bottom: 16px;
 }
 
 .timeline__image {
-  margin-bottom: 6px;
+  margin-bottom: 2px;
 }
 
 .timeline__list-bottom  {
-  gap: 80px;
+  width: 1200px;
+  padding-left: 83px;
 }
 
 .timeline__item-bottom {
@@ -50,4 +76,115 @@ margin-bottom: 16px;
   line-height: 145%;
   text-align: center;
   color: var(--accent-color-text);
+}
+
+.bottom1 {
+  margin-right: 47px;
+}
+.bottom2 {
+  margin-right: 64px;
+}
+.bottom3 {
+  margin-right: 74px;
+}
+.bottom4 {
+  margin-right: 66px;
+}
+.bottom5 {
+  margin-right: 95px;
+}
+.bottom6 {
+  margin-right: 55px;
+}
+
+
+
+@media (max-width:1025px) {
+
+  .timeline {
+    padding-bottom: 150px;
+  }
+
+.timeline__container {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items:flex-start;
+  }
+
+.timeline__list-top {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  gap: 102px;
+  padding-top: 10px;
+  margin-right: 19px;
+  padding-left: 244px;
+}
+
+.timeline__list-bottom {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+  padding-left: 0;
+  padding-right: 108px;
+  padding-top: 10px;
+  gap: 102px;
+}
+
+.timeline__image {
+  padding-top: 8px;
+
+}
+
+.timeline__container {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.top1 {
+  margin-right: 0;
+}
+.top2 {
+  margin-right: 0;
+}
+.top3 {
+  margin-right: 0;
+}
+.top4 {
+  margin-right: 0;
+}
+.top5 {
+  margin-right: 0;
+}
+.top6 {
+  margin-right: 0;
+}
+}
+
+
+@media (max-width:500px) {
+  .timeline__list-top {
+    margin: 0;
+    padding: 0;
+  }
+
+  .timeline__list-bottom {
+    margin: 0;
+    padding: 0;
+  }
+
+  .timeline__title {
+    font-size: 36px;
+  }
+
+  .timeline__list-top {
+    font-size: 14px;
+  }
+
+  .timeline__list-bottom {
+    font-size: 14px;
+  }
 }
