@@ -77,9 +77,9 @@
 
 @media (max-width:1025px) {
 
-.timer {
-  padding-bottom: 29px;
-}
+  .timer {
+    padding-bottom: 29px;
+  }
 
   .timer__blok {
     width: auto;
@@ -103,16 +103,29 @@
 }
 
 @media (max-width: 500px) {
+
+  .timer {
+    padding-top: 50px;
+    padding-bottom: 59px;
+  }
+
+  .timer__blok {
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 0;
+  }
+
   .timer__title {
     font-size: 36px;
+    margin-bottom: 16px;
   }
 
   .timer__block-info {
     border: 1px solid #91777b;
-border-radius: 8px;
-padding: 16px 8px;
-width: 64px;
-height: 64px;
+    border-radius: 8px;
+    padding: 11px 8px;
+    width: 64px;
+    height: 64px;
   }
 
   .timer__number {
@@ -120,14 +133,14 @@ height: 64px;
     font-size: 24px;
     text-align: center;
     color: #79585f;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
   }
 
   .timer__text {
     font-size: 12px;
   }
+
+  .timer-row {
+    gap: 19px;
+  }
 }
-
-
-
-

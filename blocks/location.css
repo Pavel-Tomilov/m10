@@ -114,7 +114,7 @@ top: 802px;
 @media (max-width:500px) {
 .location {
   padding-top: 105px;
-  padding-bottom: 100px;
+  padding-bottom: 46px;
 }
 
   .location__title {
@@ -147,5 +147,13 @@ top: 802px;
 
 .place-bottom {
 padding-top: 74px;
+}
+
+.location__image-bottom-right {
+  top: 365px;
+}
+
+.location__image-bottom-left {
+  top: 373px;
 }
 }

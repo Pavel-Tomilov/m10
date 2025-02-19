@@ -101,21 +101,52 @@
 }
 
 @media (max-width:500px) {
+.dresscode {
+  padding-bottom: 50px;
+}
+
 .dresscode__container {
-  width: auto;
+  width: 290px;
 }
 
 .dresscode__title {
   font-size: 36px;
+  margin-bottom: 29px;
 }
 
 .dresscode__description {
-  font-size: 16px;
+font-weight: 300;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0.01em;
+text-align: center;
+color: #79585f;
+margin-bottom: 26px;
 }
 
 .dresscode__item {
   width: 35px;
   height: 35px;
+}
+
+.dresscode__image-left {
+  top: 4px;
+}
+.dresscode__image-right {
+  top: 4px;
+}
+
+.dresscode-image {
+  margin-bottom: 24px;
+  padding-left: 13px;
+  width: 250px;
+  height: 2px;
+}
+
+.dresscode__list {
+  justify-content: flex-start;
+  padding-left: 14px;
+  gap: 14px;
 }
 }
 

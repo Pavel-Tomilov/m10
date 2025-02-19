@@ -58,6 +58,12 @@ z-index: -1;
 
 
 @media (max-width: 1025px) {
+
+.hero {
+  padding-top: 30px;
+  padding-bottom: 246px;
+}
+
   .hero__container {
     max-width: 504px;
     height: 642px;
@@ -70,18 +76,18 @@ z-index: -1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 18px;
+    padding-top: 31px;
   }
 
   .hero__image-left {
     position: absolute;
-    top: -242px;
+    top: -206px;
     left: 0;
   }
 
   .hero__image-right {
     position: absolute;
-    top: 411px;
+    top: 447px;
     right: 0;
 
   }
@@ -93,6 +99,11 @@ z-index: -1;
 
 
 @media  (max-width: 500px) {
+
+.hero {
+  padding-top: 0;
+  padding-bottom: 240px;
+}
 
   .hero__container {
     border-radius: 50px;

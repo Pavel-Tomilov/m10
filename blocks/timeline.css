@@ -166,6 +166,11 @@ align-items: center;
 
 
 @media (max-width:500px) {
+.timeline {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
   .timeline__list-top {
     margin: 0;
     padding: 0;
@@ -178,13 +183,45 @@ align-items: center;
 
   .timeline__title {
     font-size: 36px;
+    margin-bottom: 67px;
   }
 
   .timeline__list-top {
     font-size: 14px;
+    margin-right: 45px;
+    gap: 69px;
   }
 
   .timeline__list-bottom {
     font-size: 14px;
+    margin-left: 36px;
+    gap: 69px;
   }
+
+  .timeline__item-top {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: #79585f;
+}
+
+.timeline__item-bottom {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  color: #79585f;
+}
+
+.timeline__container {
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 90px;
+}
+
+.timeline__image {
+  position: absolute;
+top: -8px;
+}
 }

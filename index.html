@@ -124,30 +124,33 @@
         <h3 class="timeline__title">план дня</h3>
         <div class="timeline__container flex">
 
-            <ul class="list-reset timeline__list-top flex">
-              <li class="timeline__item-top top1">14:00</li>
-              <li class="timeline__item-top top2">15:00</li>
-              <li class="timeline__item-top top3">15:30</li>
-              <li class="timeline__item-top top4">16:00</li>
-              <li class="timeline__item-top top5">21:00</li>
-              <li class="timeline__item-top top6">21:30</li>
-              <li class="timeline__item-top">22:00</li>
-            </ul>
-           <div class="timeline__image">
-              <picture>
-                <source srcset="image/timeline-744.png" media="(max-width:1025px)">
-                <img src="image/line-timeline.png" alt="">
-              </picture>
+           <div>
+              <ul class="list-reset timeline__list-top flex">
+                <li class="timeline__item-top top1">14:00</li>
+                <li class="timeline__item-top top2">15:00</li>
+                <li class="timeline__item-top top3">15:30</li>
+                <li class="timeline__item-top top4">16:00</li>
+                <li class="timeline__item-top top5">21:00</li>
+                <li class="timeline__item-top top6">21:30</li>
+                <li class="timeline__item-top">22:00</li>
+              </ul>
            </div>
-            <ul class="list-reset timeline__list-bottom flex">
-              <li class="timeline__item-bottom bottom1">Сбор гостей</li>
-              <li class="timeline__item-bottom bottom2">Регистрация</li>
-              <li class="timeline__item-bottom bottom3">Фуршет</li>
-              <li class="timeline__item-bottom bottom4">Ужин</li>
-              <li class="timeline__item-bottom bottom5">Торт</li>
-              <li class="timeline__item-bottom bottom6">Танцы</li>
-              <li class="timeline__item-bottom bottom7">Окончание</li>
-            </ul>
+              <picture>
+                <source srcset="image/timeline-390.png" media="(max-width:500px)">
+                <source srcset="image/timeline-744.png" media="(max-width:1025px)">
+                <img  class="timeline__image" src="image/line-timeline.png" alt="">
+              </picture>
+           <div>
+              <ul class="list-reset timeline__list-bottom flex">
+                <li class="timeline__item-bottom bottom1">Сбор гостей</li>
+                <li class="timeline__item-bottom bottom2">Регистрация</li>
+                <li class="timeline__item-bottom bottom3">Фуршет</li>
+                <li class="timeline__item-bottom bottom4">Ужин</li>
+                <li class="timeline__item-bottom bottom5">Торт</li>
+                <li class="timeline__item-bottom bottom6">Танцы</li>
+                <li class="timeline__item-bottom bottom7">Окончание</li>
+              </ul>
+           </div>
          </div>
 
       </div>
@@ -191,6 +194,9 @@
         <img class="details__image-right" src="../image/line-right.svg" alt="">
         <div class="details__content">
           <h3 class="details__title">Детали</h3>
+          <svg class="details__svg" width="234" height="2" viewBox="0 0 234 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1H233" stroke="#91777B" stroke-width="2" stroke-linecap="round" />
+          </svg>
           <p class="details__text">Просим вас воздержаться от криков «Горько!» и сохранить атмосферу уютного семейного
             праздника.</p>
           <p class="details__text">Вечером, возможно, будет прохладно, пожалуйста, возьмите с собой теплые вещи.</p>
@@ -340,8 +346,10 @@
     </section>
   </main>
   <footer class="footer">
-    <p class="footer__text">Создано с помощью сервиса</p>
-    <a href="#"><img src="image/logo.svg" class="footer__logo"></a>
+    <div class="footer__container">
+      <p class="footer__text">Создано с помощью сервиса</p>
+      <a href="#"><img src="image/logo.svg" class="footer__logo"></a>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
