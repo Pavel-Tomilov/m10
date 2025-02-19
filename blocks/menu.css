@@ -131,7 +131,9 @@
   }
 
   .change .icon-line__one {
-    transform: rotate(-45deg) translate(-6px, 6px);
+
+      transform: rotate(-45deg) translate(-3px, 3px);
+
   }
 
   .change .icon-line__three {
