@@ -103,17 +103,24 @@
 }
 
 @media (max-width: 500px) {
-
-
   .menu__open {
     display: flex;
     height: 844px;
   }
 
   .menu__links {
+    width: 77%;
     flex-direction: column;
     gap: 12px;
   }
+
+.menu__link {
+font-weight: 400;
+font-size: 36px;
+line-height: 120%;
+text-transform: uppercase;
+text-align: center;
+}
 
   .icon-burger {
     display: flex;
