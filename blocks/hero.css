@@ -57,7 +57,7 @@ z-index: -1;
 }
 
 
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
 
 .hero {
   padding-top: 30px;
@@ -94,11 +94,7 @@ z-index: -1;
 
 }
 
-
-
-
-
-@media  (max-width: 500px) {
+@media  (max-width: 720px) {
 
 .hero {
   padding-top: 0;

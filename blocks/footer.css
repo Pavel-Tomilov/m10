@@ -32,15 +32,17 @@
   object-fit: contain;
 }
 
-@media (max-width:1025px) {
+@media (max-width:1200px) {
   .footer {
     padding: 89px 0;
+    background: #91777b;
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:720px) {
 
 .footer {
+  background: #79585f;
   padding-top: 53px;
   padding-bottom: 47px;
 }

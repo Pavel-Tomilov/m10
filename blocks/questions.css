@@ -209,7 +209,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1200px) {
   .questions {
     padding-top: 68px;
     padding-bottom: 93px;
@@ -228,7 +228,7 @@
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:720px) {
   .questions {
     padding-top: 92px;
     padding-bottom: 32px;
@@ -269,12 +269,13 @@
   }
 
   .questions__input-allergy {
-    border: 0.75px solid black;
+    margin-bottom: 11px;
+    border: 0.75px solid #080808;
+    background: inherit;
     border-radius: 6px;
     padding: 10px 24px;
     width: 350px;
     height: 44px;
-    margin-bottom: 11px;
   }
 
   .questions__button {

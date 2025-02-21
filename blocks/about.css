@@ -57,7 +57,7 @@ color: #79585f;
   bottom: -87px;
 }
 
-@media (max-width:1025px) {
+@media (max-width:1200px) {
 
 .about {
   padding-top: 180px;
@@ -79,14 +79,14 @@ color: #79585f;
   }
 }
 
-@media (max-width:500px) {
+@media (max-width:720px) {
 .about {
   padding-top: 58px;
   padding-bottom: 90px;
 }
 
+
 .about__container {
-  width: 354px;
   position: relative;
   border-top: 2px solid #79585f;
   border-bottom: 2px solid #79585f;

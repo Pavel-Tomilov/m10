@@ -78,7 +78,7 @@
   background: #D3DABE;
 }
 
-@media(max-width: 1025px) {
+@media(max-width: 1200px) {
 
   .dresscode {
     padding-bottom: 205px;
@@ -100,7 +100,7 @@
 
 }
 
-@media (max-width:500px) {
+@media (max-width:720px) {
 .dresscode {
   padding-bottom: 50px;
 }

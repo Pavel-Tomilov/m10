@@ -75,7 +75,7 @@
   margin: 0;
 }
 
-@media (max-width:1025px) {
+@media (max-width:1200px) {
 
   .timer {
     padding-bottom: 29px;
@@ -102,7 +102,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
 
   .timer {
     padding-top: 50px;
