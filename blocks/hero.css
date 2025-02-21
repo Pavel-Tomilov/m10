@@ -81,7 +81,7 @@ z-index: -1;
 
   .hero__image-left {
     position: absolute;
-    top: -206px;
+    top: -298px;
     left: 0;
   }
 
@@ -92,6 +92,12 @@ z-index: -1;
 
   }
 
+}
+
+@media (max-width: 800px) {
+  .hero__image-left {
+    top: -206px;
+  }
 }
 
 @media  (max-width: 720px) {
