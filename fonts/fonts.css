@@ -9,6 +9,15 @@
 
 @font-face {
   font-family: 'Montserrat';
+  src: url(./montserrat-alternates-3.woff2) format('woff2');
+  src: url(./montserrat-alternates-3.woff) format('woff');
+   font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Montserrat';
   src: url(./Montserrat-Regular.woff2) format('woff2');
   src: url(./Montserrat-Regular.woff) format('woff');
    font-display: swap;
