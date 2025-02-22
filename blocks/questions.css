@@ -43,7 +43,7 @@
 }
 
 .questions__text {
-  max-width: 580px;
+  max-width: 610px;
   font-family: var(--font-family);
   font-weight: 300;
   font-size: 20px;
@@ -55,7 +55,6 @@
 }
 
 .questions__legend-allergy {
-  max-width: 580px;
   font-family: var(--font-family);
   font-weight: 300;
   font-size: 20px;
@@ -137,7 +136,7 @@
 .questions__options {
   display: flex;
   flex-wrap: wrap;
-  gap: 19px;
+  gap: 14px;
 }
 
 .questions__options-bottom {
@@ -306,8 +305,12 @@
   }
 
   .questions__options {
-    gap: 28px;
+    gap: 24px;
     padding-left: 29px;
+  }
+
+  .label-alco {
+    gap: 3px;
   }
 
 }

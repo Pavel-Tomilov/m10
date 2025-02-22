@@ -24,12 +24,13 @@
 
 .about__title {
   color: var(--accent-color-text);
-  font-family: var(--sub-font);
-  font-size: 48px;
+  font-family: var(--second-family);
   font-weight: 300;
-  line-height: 60px;
-  text-align: center;
+  font-size: 48px;
+  line-height: 125%;
   text-transform: uppercase;
+  text-align: center;
+  color: #79585f;
   margin: 0;
   margin-bottom: 27px;
 }
@@ -60,21 +61,23 @@ color: #79585f;
 @media (max-width:1200px) {
 
 .about {
-  padding-top: 180px;
+  padding-top: 175px;
   padding-bottom: 180px;
 }
 
   .about__text {
     width: 547px;
+    padding-left: 10px;
+
   }
 
   .about__image-left {
-    left: 27px;
+    left: 23px;
     bottom: -72px;
   }
 
   .about__image-right {
-    right: 19px;
+    right: 23px;
     bottom: -72px;
   }
 }
@@ -84,7 +87,6 @@ color: #79585f;
   padding-top: 58px;
   padding-bottom: 90px;
 }
-
 
 .about__container {
   position: relative;
@@ -110,11 +112,6 @@ color: #79585f;
     display: none;
   }
 
-  .about__text {
-    width: auto;
-    margin-bottom: 25px;
-  }
-
 .about__date {
   font-weight: 300;
   font-size: 24px;
@@ -123,14 +120,16 @@ color: #79585f;
   text-transform: uppercase;
   text-align: center;
   color: #79585f;
+  margin-bottom: 25px;
 }
 
   .about__title {
     font-size: 36px;
-    margin-bottom: 24px;
+    margin-bottom: 29px;
   }
 
   .about__text {
+    width: auto;
 font-weight: 300;
 font-size: 16px;
 line-height: 140%;
@@ -138,5 +137,6 @@ letter-spacing: 0.01em;
 text-align: center;
 color: #79585f;
 margin-bottom: 67px;
+padding-left: 0;
   }
 }

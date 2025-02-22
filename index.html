@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="ru">
 
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Приглашение на свадьбу</title>
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./style/style.css">
   <link rel="stylesheet" href="./fonts/fonts.css">
+
 </head>
 
 <body class="page">
@@ -63,8 +65,7 @@
         <div class="hero__top">
           <div class="hero-390">
             <p class="hero__date">06.08.24</p>
-            <h2 class="hero__title">МИХАИЛ</h2>
-            <h2 class="hero__title">ИРИНА</h2>
+             <p class="hero__title">МИХАИЛ ИРИНА</p>
           </div>
 
         </div>
@@ -227,7 +228,7 @@
           <p class="connection__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до 01 июля 2024 года
             любым удобным для вас способом или заполните форму ниже</p>
         </div>
-        <form action="https://formspree.io/f/mvgzloer" method="POST" class="connection__form" name="connection"
+        <form class="connection__form" name="connection"
           id="connection">
           <div class="connection__inputs">
             <input type="text" placeholder="Имя и Фамилия" id="name" name="connection" required
@@ -257,7 +258,7 @@
           <p class="questions__text">Опрос заполняется и отправляется для каждого гостя отдельно.
             Сначала заполните и отправьте для одного гостя, затем для другого.</p>
         </div>
-        <form action="https://formspree.io/f/mvgzloer" method="POST" class="questions__form">
+        <form class="questions__form">
           <input type="text" placeholder="Имя и Фамилия" id="who" required class="input-field questions__input"
             minLength={2}></input>
           <fieldset class="questions__string">
@@ -284,19 +285,19 @@
             <legend class="questions__legend">Предпочтение по алкоголю:</legend>
             <div class="questions__options-bottom">
               <!-- <div class="questions__top"> -->
-              <label htmlFor="redVine" class="questions__label">
+              <label htmlFor="redVine" class="questions__label label-alco">
                 <input class="questions__unvisible" type="checkbox" name="Красное вино" value="Красное вино"
                   id="redVine"></input>
                 <span class="questions__visible-radio"></span>
                 <span class="questions__text-span">Красное вино</span>
               </label>
-              <label htmlFor="whiteVine" class="questions__label">
+              <label htmlFor="whiteVine" class="questions__label label-alco">
                 <input class="questions__unvisible" type="checkbox" name="Белое вино" value="Белое вино"
                   id="whiteVine"></input>
                 <span class="questions__visible-radio"></span>
                 <span class="questions__text-span">Белое вино</span>
               </label>
-              <label htmlFor="sparkling" class="questions__label">
+              <label htmlFor="sparkling" class="questions__label label-alco">
                 <input class="questions__unvisible" type="checkbox" name="Игристое вино" value="Игристое вино"
                   id="sparkling"></input>
                 <span class="questions__visible-radio"></span>
@@ -304,13 +305,13 @@
               </label>
               <!-- </div> -->
               <!-- <div class="questions__bottom"> -->
-              <label htmlFor="strong" class="questions__label">
+              <label htmlFor="strong" class="questions__label label-alco">
                 <input class="questions__unvisible" type="checkbox" name="Крепкий алкоголь" value="Крепкий алкоголь"
                   id="strong"></input>
                 <span class="questions__visible-radio"></span>
                 <span class="questions__text-span">Крепкий алкоголь</span>
               </label>
-              <label htmlFor="noAlco" class="questions__label">
+              <label htmlFor="noAlco" class="questions__label label-alco">
                 <input class="questions__unvisible" type="checkbox" name="Безалкогольные напитки"
                   value="Безалкогольные напитки" id="noAlco"></input>
                 <span class="questions__visible-radio"></span>

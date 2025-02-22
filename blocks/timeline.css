@@ -84,15 +84,15 @@
 }
 
 .bottom1 {
-  margin-right: 47px;
+  margin-right: 36px;
 }
 
 .bottom2 {
-  margin-right: 64px;
+  margin-right:50px;
 }
 
 .bottom3 {
-  margin-right: 74px;
+  margin-right: 55px;
 }
 
 .bottom4 {
@@ -100,11 +100,11 @@
 }
 
 .bottom5 {
-  margin-right: 95px;
+  margin-right: 81px;
 }
 
 .bottom6 {
-  margin-right: 55px;
+  margin-right: 54px;
 }
 
 
@@ -116,7 +116,7 @@
   }
 
   .timeline__container {
-    gap: 60px;
+    gap: 56px;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -128,7 +128,7 @@
     width: auto;
     gap: 102px;
     padding-top: 10px;
-    padding-left: 244px;
+    padding-left: 234px;
   }
 
   .timeline__list-bottom {
@@ -182,11 +182,17 @@
   .timeline__list-top {
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    margin-right: 45px;
+    gap: 69px;
   }
 
   .timeline__list-bottom {
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    margin-left: 36px;
+    gap: 69px;
   }
 
   .timeline__title {
@@ -194,17 +200,6 @@
     margin-bottom: 67px;
   }
 
-  .timeline__list-top {
-    font-size: 14px;
-    margin-right: 45px;
-    gap: 69px;
-  }
-
-  .timeline__list-bottom {
-    font-size: 14px;
-    margin-left: 36px;
-    gap: 69px;
-  }
 
   .timeline__item-top {
     font-weight: 400;
@@ -214,10 +209,11 @@
   }
 
   .timeline__item-bottom {
+    font-family: var(--third-family);
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.01em;
-    color: #79585f;
+    color: #79585f;;
   }
 
   .timeline__container {
@@ -226,7 +222,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-left: 98px;
+    padding-left: 82px;
 
   }
 

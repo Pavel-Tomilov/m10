@@ -1,6 +1,6 @@
 .dresscode {
   padding-top: 123px;
-  padding-bottom: 123px;
+  padding-bottom: 124px;
   position: relative;
 }
 
@@ -86,7 +86,7 @@
 
   .dresscode__list {
     justify-content: flex-start;
-    padding-left: 42px;
+    padding-left: 38px;
     gap: 20px;
 }
 
@@ -106,7 +106,7 @@
 }
 
 .dresscode__container {
-  width: 290px;
+  width: 304px;
 }
 
 .dresscode__title {
@@ -138,14 +138,14 @@ margin-bottom: 26px;
 
 .dresscode-image {
   margin-bottom: 24px;
-  padding-left: 13px;
+  padding-left: 29px;
   width: 250px;
   height: 2px;
 }
 
 .dresscode__list {
   justify-content: flex-start;
-  padding-left: 14px;
+  padding-left: 21px;
   gap: 14px;
 }
 }

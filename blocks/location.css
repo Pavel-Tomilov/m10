@@ -31,7 +31,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 90px;
+  padding-bottom: 125px;
 }
 
 .place-bottom {
@@ -44,7 +44,7 @@
 
 .location__adress {
   color: rgb(121, 88, 95);
-  font-family: "Montserrat";
+  font-family: var(--font-family);
   font-weight: 300;
   font-size: 20px;
   line-height: 145%;
@@ -55,7 +55,7 @@
 
 .location-image {
   display: inline-block;
-  margin-bottom: 36px;
+  margin-bottom: 40px;
 }
 
 .location__image-left {
@@ -97,6 +97,7 @@
     letter-spacing: 0.01em;
     text-align: center;
     color: #79585f;
+    padding-left: 5px;
   }
 
   .location__image-left {
@@ -120,6 +121,7 @@
   }
 
   .place-bottom {
+    padding-left: 5px;
     padding-top: 199px;
   }
 }

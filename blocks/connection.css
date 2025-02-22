@@ -44,7 +44,7 @@
 }
 
 .connection__text {
-  width: 610px;
+  width: 622px;
   font-family: var(--font-family);
   font-weight: 300;
   font-size: 20px;
@@ -70,7 +70,7 @@
   border: 1px solid #79585f;
   background: var(--m1-white);
   border-radius: 20px;
-  padding: 10px 24px;
+  padding: 17px 24px 11px 24px;
   width: 610px;
   height: 74px;
 
@@ -136,14 +136,21 @@
     padding-bottom: 100px;
   }
 
+.connection__title {
+  margin-bottom: 4px;
+}
+
   .connection__image-left {
     top: -167px;
-    left: 0;
   }
 
   .connection__image-right {
     top: -167px;
-    right: 0;
+  }
+
+  .connection__input {
+    padding: 17px 25px 11px 27px;
+    width: 614px;
   }
 }
 
